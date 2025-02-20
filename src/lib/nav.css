@@ -1,0 +1,21 @@
+.mainNav {
+    background-color: aquamarine;
+    height: 10vh;
+    width: 100%;
+  }
+  
+  .mainNav ul {
+    height: 100%;
+    list-style: none;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .mainNav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  
