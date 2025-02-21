@@ -1,7 +1,18 @@
 .mainNav {
-    background-color: aquamarine;
+    background-color: #fff;
     height: 10vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .iu-logo img {
+    width: 20em;
+    height: auto;
   }
   
   .mainNav ul {

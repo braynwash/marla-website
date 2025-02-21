@@ -9,3 +9,12 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px;
 }
+
+:root {
+    --primary-color: #F27447;
+    --secondary-color: #D53827;
+    --accent-color: #5C7980;
+    --tertiary-color: #57595E;
+    --text-color: #FDCF9D;
+    --background-color: #502F2B;
+}
