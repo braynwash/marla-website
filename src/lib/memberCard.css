@@ -1,0 +1,39 @@
+.member {
+	min-width: 38vw;
+	max-width: 38vw;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 2rem;
+}
+
+.img {
+	background-color: cadetblue;
+	min-width: 200px;
+	min-height: 250px;
+	margin-right: 1vw;
+}
+
+.memberInfo {
+	text-align: left;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	flex-direction: column;
+}
+
+.memberInfo h3 {
+	font-family: var(--vt324-font);
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.memberInfo h4,
+p {
+	font-family: var(--roboto-font);
+	font-size: 14px !important;
+	font-weight: 400;
+}

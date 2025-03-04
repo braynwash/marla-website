@@ -1,0 +1,73 @@
+.about {
+	min-height: 90vh;
+	background-color: antiquewhite;
+
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.about img {
+	height: auto;
+	width: 80vw;
+}
+
+.ab {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+
+	max-width: 80vw;
+}
+
+.ab h1 {
+	font-family: var(--vt324-font);
+	font-size: 64px;
+	font-weight: 400;
+}
+
+.ab p {
+	font-family: var(--roboto-font);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.about-pics {
+	max-width: 80vw;
+	display: flex;
+	align-items: center;
+
+	gap: 10vw;
+}
+
+.about-pic {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	flex-direction: column;
+
+	text-align: center;
+}
+
+.about-pic img {
+	width: 20vw;
+	height: auto;
+}
+
+.about-pic p {
+	font-family: var(--roboto-font);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.members {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
