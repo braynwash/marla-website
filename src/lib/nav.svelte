@@ -9,7 +9,8 @@
 			alt="Acronym Marla: Media Arts Research and Learning Arcade. With IU Indianapolis Logo."
 		/>
 	</div>
-	<ul>
+	<div class="links">
+		<ul>
 		<li>
 			<a href="/">Home</a>
 		</li>
@@ -17,16 +18,18 @@
 			<a href="/about">About</a>
 		</li>
 		<li>
-			<a href="/news">News</a>
+			<a href="/collections">Collections</a>
 		</li>
 		<li>
 			<a href="/blog">Blog</a>
 		</li>
 		<li>
-			<a href="/resources">Resources</a>
+			<a href="/news">News</a>
 		</li>
-		<li>
+		<li class="contact">
 			<a href="/contact">Contact</a>
 		</li>
 	</ul>
+	</div>
+	
 </nav>
