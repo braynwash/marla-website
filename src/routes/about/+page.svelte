@@ -1,6 +1,6 @@
 <script>
 	import './about.css';
-	import MemberCard from '$lib/memberCard.svelte';
+	import MemberCard from '$lib/memberCard/memberCard.svelte';
 </script>
 
 <main class="about">
