@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'VT323';
+	src: url('/VT323/VT323-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Serif';
+	src: url('/Roboto_Serif/static/RobotoSerif-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bebas';
+	src: url('/Bebas_Neue/BebasNeue-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-bottom: 16px;
+}
+
+:root {
+	/* Color Var */
+	--primary-color: #f27447;
+	--secondary-color: #d53827;
+	--accent-color: #5c7980;
+	--tertiary-color: #57595e;
+	--text-color: #fdcf9d;
+	--background-color: #502f2b;
+
+	/* Font Var */
+	--bebas-font: 'Bebas';
+	--vt324-font: 'VT323';
+	--roboto-font: 'Roboto-Serif';
+}
