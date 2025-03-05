@@ -2,4 +2,4 @@
 export { default as Nav } from './nav/nav.svelte';
 export { default as Footer } from './footer/footer.svelte';
 
-export { default as Member } from './memberCard/memberCard.svelte';
+export { default as MemberCard } from './memberCard/memberCard.svelte';
