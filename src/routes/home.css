@@ -1,5 +1,121 @@
 .home {
-    height: 90vh;
+    height: 4000px;
     width: 100%;
-    background-color: var(--background-color);
+    background-color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.home .hero {
+    height: 600px;
+    background-color: #272423;
+    display: flex;
+    align-items: center;
+}
+
+.home .hero .heroText {
+color: white;
+height: 350px;
+width: 610px;
+margin-left: 120px;
+z-index: 10;
+}
+
+.heroText img {
+    height: 81px;
+}
+
+.heroText h1 {
+    font-size: 85px;
+    font-family: "Bebas";
+    margin-bottom: 0px;
+}
+
+.heroText p {
+    font-size: 18px;
+    font-family: "Roboto-Serif";
+    margin-bottom: 35px;
+}
+
+.heroText a {
+    color: white;
+    font-family: "Roboto-Serif";
+    text-decoration: none;
+    outline: 2px solid white;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.heroText a:hover {
+    color: #F27447;
+    font-family: "Roboto-Serif";
+    text-decoration: none;
+    outline: 2px solid #F27447;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+#controller {
+    width: 550px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    transform: rotate(10deg);
+    z-index: 5;
+}
+
+#banner {
+    width: 100%;
+    height: 392px;
+    position: absolute;
+    top: 400px;
+}
+
+.homeContent {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+}
+
+.homeAbout {
+    height: 335px;
+    width: 1275px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid rgba(0, 0, 0, 0.128);
+    border-radius: 10px;
+    margin-top: 250px;
+    padding: 30px;
+}
+
+.homeAbout img {
+    height: 290px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.homeAbtImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    margin-right: 55px;
+}
+
+.homeAbtText {
+    width: 70%;
+    line-height: 30px;
+    font-size: 18px; 
+    font-family: "Roboto-Serif";
+}
+
+.homeAbtText a {
+    color: black;
+    font-family: "Roboto-Serif";
+    text-decoration: none;
+    outline: 2px solid #F27447;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
 }
