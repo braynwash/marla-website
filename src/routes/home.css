@@ -46,15 +46,6 @@ z-index: 10;
     display: inline-block;
 }
 
-.heroText a:hover {
-    color: #F27447;
-    font-family: "Roboto-Serif";
-    text-decoration: none;
-    outline: 2px solid #F27447;
-    padding: 15px 10px;
-    display: inline-block;
-}
-
 #controller {
     width: 550px;
     position: absolute;

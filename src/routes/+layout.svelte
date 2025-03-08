@@ -1,7 +1,7 @@
 <script>
 	let { children } = $props();
 	import '../global.css';
-	import { Nav, Footer, MemberCard } from '$lib';
+	import { Nav, Footer } from '$lib';
 </script>
 
 <Nav />
