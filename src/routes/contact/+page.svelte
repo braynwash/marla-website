@@ -1,7 +1,35 @@
 <script>
     import "./contact.css";
+    import Icon from '@iconify/svelte';
 </script>
 
 <main class="contact">
-    <h1>Contact</h1>
+    <div class="contactHero"></div>
+
+    <div class="contactContent">
+        <div class="contactInfo">
+
+            <div id="box1" class="contactBox">
+                <div class="contactWrap">
+                    <h1>Contact us!</h1>
+                    <span><Icon icon="pixelarticons:buildings" class="contactIcon" />535 W Michigan St <br> Indianapolis, IN 46202</span>
+                    <span><Icon icon="pixelarticons:home" class="contactIcon" />IT 420</span>
+                    <span><Icon icon="pixelarticons:clock" class="contactIcon" />Weekdays from 9 AM - 5 PM</span>
+                    <span><Icon icon="pixelarticons:mail" class="contactIcon" />marlalab@iu.edu</span>
+                    <span><Icon icon="pixelarticons:device-phone" class="contactIcon" />Social media</span>
+                </div>
+            </div>
+
+            <div id="box2" class="contactBox">
+                <div class="contactWrap">
+                    <h1>Get involved!</h1>
+                    <span><a href="https://thespot.indianapolis.iu.edu/organization/lore" target="_blank"><Icon icon="pixelarticons:device-laptop" class="contactIcon" />Check out our Spot page!</a></span>
+                    <span><Icon icon="pixelarticons:mail" class="contactIcon" />lore@iu.edu</span>
+                    <span><a href="https://discord.gg/G5kzgdZKTa" target="_blank"><Icon icon="pixelarticons:device-phone" class="contactIcon" />Join our Discord!</a></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="contactForm"></div>
+    </div>
 </main>

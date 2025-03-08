@@ -1,1 +1,74 @@
+.contactHero {
+	width: 100%;
+	height: 550px;
+	background-image: url("/game-hero.png");
+	background-position: center;
+	background-size: cover;
+}
 
+.contactContent {
+	margin: 0 auto;
+	display: flex;
+	height: 950px;
+	width: 80%;
+	margin-top: 80px;
+}
+
+.contactInfo {
+	height: 100%;
+	width: 30%;
+}
+
+.contactForm {
+	width: 70%;
+	background-color: purple;
+	margin-left: 100px;
+}
+
+.contactBox {
+	background-color: #F3F3F3;
+}
+
+#box1 {
+	height: 475px;
+}
+
+#box2 {
+	margin-top: 50px;
+	height: 350px;
+}
+
+.contactBox h1 {
+	padding-top: 60px;
+	font-family: "VT323";
+}
+
+.contactBox span {
+	font-family: "Roboto-Serif";
+	display: flex; 
+    align-items: center;
+	margin-top: 35px;
+	align-self: center;
+}
+
+.contactBox a {
+	display: flex; 
+    align-items: center;
+	color: black;
+}
+
+.contactBox a:hover {
+	color: #F27447;
+}
+
+.contactWrap {
+	margin: 0 auto;
+	align-self: center;
+	width: 80%;
+}
+
+.contactIcon {
+	color: #494949;
+	font-size: 22px;
+	margin-right: 10px;
+}
