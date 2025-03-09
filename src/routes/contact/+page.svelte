@@ -30,6 +30,22 @@
             </div>
 
         </div>
-        <div class="contactForm"></div>
+        <div class="contactForm">
+            <h1>Send us an email!</h1>
+            <form>
+                <div class="inputFlex"> 
+                    <input type="text" name="fName" id="fName" placeholder="First name" required>
+                    <input type="text" name="Name" id="lName" placeholder="Last name" required>
+                </div>
+                 
+                <input type="email" name="email" id="email" placeholder="Email Address" required> 
+                <textarea name="message" id="message" placeholder="Message" required></textarea> <br>
+
+                <div class="btnCenter">
+                    <input type="submit" id="submit" >
+                </div>
+                
+            </form>
+        </div>
     </div>
 </main>

@@ -21,7 +21,6 @@
 
 .contactForm {
 	width: 70%;
-	background-color: purple;
 	margin-left: 100px;
 }
 
@@ -71,4 +70,91 @@
 	color: #494949;
 	font-size: 22px;
 	margin-right: 10px;
+}
+
+form {
+	width: 80%;
+	display: inline-block;
+}
+
+.contactForm h1 {
+	font-size: 45px;
+	font-family: "VT323";
+	margin-bottom: 75px;
+}
+
+.contactForm .inputFlex {
+	display: flex;
+}
+
+form input {
+	padding: 10px;
+	padding-left: 0px;
+	border-style: none;
+	border-bottom: 3px solid #57595e6c;
+	color: #494949da;
+	font-family: "Roboto-Serif";
+	font-size: 18px;
+}
+
+form input:focus {
+	color: #F27447;
+	outline: none;
+	border-color: #F27447;
+}
+
+#fName {
+	width: 50%;
+	margin-right: 30px;
+}
+
+#lName {
+	width: 50%;
+	margin-left: 35px;
+}
+
+#email {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+textarea {
+	height: 300px;
+	width: 100%;
+	padding: 20px;
+	border: 3px solid #57595e6c;
+	color: #494949da;
+	font-family: "Roboto-Serif";
+	font-size: 18px;
+	resize: vertical;
+	background-color: #f3f3f398;
+	margin-bottom: 65px;
+	border-radius: 10px;
+}
+
+textarea:focus {
+	color: #F27447;
+	border-color: #F27447;
+	outline: none;
+}
+
+#submit {
+	width: 65%;
+	background-color: white;
+	border: 3px solid #F27447;
+	color: #F27447;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.btnCenter {
+	display: flex;
+	justify-content: center;
+}
+
+#submit:hover {
+	color: white;
+	background-color: #F27447;
+	cursor: pointer;
 }
