@@ -1,0 +1,35 @@
+.blogPost {
+	max-width: 20vw;
+	min-height: 350px;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.blogPost img {
+	border-radius: 20px;
+
+	width: 20vw;
+	height: auto;
+}
+
+.blogPost h3 {
+	font-family: var(--roboto-font);
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.blogPost p {
+	font-family: var(--roboto-font);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.blogPost span {
+	font-family: var(--roboto-font);
+	font-size: 16px;
+	font-weight: 400;
+	color: #494949;
+}

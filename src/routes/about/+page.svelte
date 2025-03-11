@@ -50,8 +50,7 @@
 		<div class="members">
 			<MemberCard />
 			<MemberCard />
-		</div>
-		<div class="members">
+
 			<MemberCard />
 			<MemberCard />
 		</div>
