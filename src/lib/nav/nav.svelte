@@ -11,25 +11,24 @@
 	</div>
 	<div class="links">
 		<ul>
-		<li>
-			<a href="/">Home</a>
-		</li>
-		<li>
-			<a href="/about">About</a>
-		</li>
-		<li>
-			<a href="/collections">Collections</a>
-		</li>
-		<li>
-			<a href="/blog">Blog</a>
-		</li>
-		<li>
-			<a href="/news">News</a>
-		</li>
-		<li class="contact">
-			<a href="/contact">Contact</a>
-		</li>
-	</ul>
+			<li>
+				<a href="/">Home</a>
+			</li>
+			<li>
+				<a href="/about">About</a>
+			</li>
+			<li>
+				<a href="/collections">Collections</a>
+			</li>
+			<li>
+				<a href="/blog">Blog</a>
+			</li>
+			<li>
+				<a href="/press">Press Releases</a>
+			</li>
+			<li class="contact">
+				<a href="/contact">Contact</a>
+			</li>
+		</ul>
 	</div>
-	
 </nav>

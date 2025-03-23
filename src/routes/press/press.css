@@ -1,0 +1,37 @@
+.press {
+	background-color: #fff;
+
+	/* padding-top: 3rem; */
+	padding-bottom: 3rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.hero-img {
+	height: auto;
+	width: 80vw;
+
+	margin-bottom: 2em;
+}
+
+.press-sub {
+	max-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.press-sub h2 {
+	margin: 10px;
+	font-family: var(--roboto-font);
+}
+
+.press-sub h2:hover {
+	margin: 10px;
+	font-family: var(--roboto-font);
+	color: var(--primary-color);
+	text-decoration: underline;
+}
