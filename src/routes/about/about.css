@@ -11,11 +11,17 @@
 	flex-direction: column;
 }
 
-.about img {
-	height: auto;
+.about-img {
+	height: 450px;
 	width: 80vw;
 
+	object-fit: cover;
+	object-position: center;
+
 	margin-bottom: 2em;
+	margin-top: 1em;
+
+	border-radius: 10px;
 }
 
 .ab {

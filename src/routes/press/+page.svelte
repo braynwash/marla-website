@@ -3,7 +3,7 @@
 </script>
 
 <main class="press">
-	<img class="hero-img" src="/press-hero.png" alt="Hero image for press page." />
+	<img class="press-img" src="/press-hero.png" alt="Hero image for press page." />
 
 	<div class="press-sub">
 		<h2>News</h2>

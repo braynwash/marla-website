@@ -5,9 +5,11 @@
 
 <main class="about">
 	<img
+		class="about-img"
 		src="/about-hero.png"
 		alt="Image of Haven holding ribbons in Marla with Powers by his side."
 	/>
+	<!-- <div class="hero-img"></div> -->
 	<div class="ab">
 		<h1>About Us</h1>
 		<p>
