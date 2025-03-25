@@ -4,7 +4,7 @@
 </script>
 
 <main class="blog">
-	<img class="blog-img" src="/blog-hero.png" alt="Hero image for blog page." />
+	<img class="blog-img" src="/blog-hero.png" alt="Hero for blog page." />
 
 	<div class="bg">
 		<h1>Blog</h1>

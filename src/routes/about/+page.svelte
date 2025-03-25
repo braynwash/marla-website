@@ -7,7 +7,7 @@
 	<img
 		class="about-img"
 		src="/about-hero.png"
-		alt="Image of Haven holding ribbons in Marla with Powers by his side."
+		alt="Haven holding ribbons in Marla with Powers by his side."
 	/>
 	<!-- <div class="hero-img"></div> -->
 	<div class="ab">
@@ -35,15 +35,15 @@
 
 	<div class="about-pics">
 		<div class="about-pic">
-			<img src="/about-pic1.png" alt="Picture of Nintendo Super" />
+			<img src="/about-pic1.png" alt="Nintendo Super" />
 			<p>The lab, in the Information Communication Technology Complex</p>
 		</div>
 		<div class="about-pic">
-			<img src="/about-pic2.png" alt="Picture of Nintendo Super" />
+			<img src="/about-pic2.png" alt="Nintendo Super" />
 			<p>The lab, in the Information Communication Technology Complex</p>
 		</div>
 		<div class="about-pic">
-			<img src="/about-pic3.png" alt="Picture of Nintendo Super" />
+			<img src="/about-pic3.png" alt="Nintendo Super" />
 			<p>The lab, in the Information Communication Technology Complex</p>
 		</div>
 	</div>
