@@ -36,17 +36,21 @@
 }
 
 .mainNav .links {
-	width: 45%;
+	width: 50%;
 }
-
-.mainNav .links .contact {
-	background-color: #F16634;
-	padding: 10px 15px;
-	border-radius: 5px;
-	color: white;
-}
-
 
 .mainNav .links .contact a {
-	color: #fff;
+    background-color: #F16634;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.mainNav .links .contact a:hover {
+	color: #F16634;
+	background-color: #fff;
+	outline: 2px solid #F16634;
 }

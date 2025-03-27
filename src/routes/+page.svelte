@@ -8,7 +8,7 @@
             <img alt="ROM Logo" src="/rom-logo.png">
             <h1>PRESERVE. STUDY. PLAY.</h1>
             <p>where people can do really scholarly study on game design to be able to look every game with this genre, mechanic, etcetera, and actually be able to play them, study them, or write papers on them.</p>
-            <a href="/collections">view archives</a>
+            <a href="/collections">view collections</a>
         </div>
         <img id="controller" alt="3D render of a Game Controller" src="/controller.png">
         <img id="banner" alt="border" src="/marla-banner.png" >

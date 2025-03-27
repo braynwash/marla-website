@@ -46,6 +46,11 @@ z-index: 10;
     display: inline-block;
 }
 
+.heroText a:hover {
+    outline-color: #F27447;
+    color: #F27447;
+}
+
 #controller {
     width: 550px;
     position: absolute;
@@ -109,4 +114,9 @@ z-index: 10;
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
+}
+
+.homeAbtText a:hover {
+    background-color: #F27447;
+    color: white;
 }
