@@ -1,6 +1,7 @@
 <script>
 	import { BlogPost } from '$lib';
 	import './blog.css';
+	let { data } = $props();
 </script>
 
 <main class="blog">
@@ -11,37 +12,12 @@
 		<h3>Recent Posts</h3>
 	</div>
 	<div class="bgPosts">
-		<BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost>
-		<BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost><BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost><BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost><BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost><BlogPost
-			image="/blog-example.png"
-			title="Game On!"
-			description="IU students and faculty ‘gamify’ technical training in partnership with navy engineers."
-			date="February 28th, 2024"
-		></BlogPost>
+		{#if data.summaries.length > 0}
+			{#each data.summaries as { slug, title, image, date, description } (slug)}
+				<BlogPost {image} {title} {description} {date} />
+			{/each}
+		{:else}
+			<p>Loading posts...</p>
+		{/if}
 	</div>
 </main>
