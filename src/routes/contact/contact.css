@@ -194,3 +194,39 @@ textarea:focus {
 	background-color: #F27447;
 	cursor: pointer;
 }
+
+.modal {
+	background-color: #F27447;
+	color: white;
+	display: flex;
+	height: 60px;
+}
+
+.modalContent {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.modalContent h2 {
+	margin-left: 2%;
+	margin-top: 15px;
+}
+
+.closeBtn {
+	margin-right: 2%;
+	padding: 5px 10px;
+	font-size: 20px;
+	background-color: white;
+	color: #F27447;
+	font-family: "VT323";
+	border-style: none;
+	cursor: pointer;
+}
+
+.closeBtn:hover {
+	background-color: #F27447;
+	color: white;
+	border: 2px solid white;
+}
