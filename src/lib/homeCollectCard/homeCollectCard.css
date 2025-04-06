@@ -1,0 +1,41 @@
+.collectionsWrap .homeCollectCard {
+    background-color: white;
+    border: 1px solid #0000001f;
+    height: 100%;
+    width: 415px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Roboto-Serif";
+}
+
+.collectionsWrap .homeCollectCard img {
+    height: 370px;
+    margin-bottom: 10px;
+}
+
+.collectCardWrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.homeCollectCard h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.homeCollectCard a {
+    border: 1px solid #F27447;
+    padding: 15px 60px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #272423;
+    margin-top: 12px;
+}
+
+.homeCollectCard a:hover {
+    background-color: #F27447;
+    color: white;
+}

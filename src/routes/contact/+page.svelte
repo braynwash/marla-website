@@ -36,6 +36,8 @@ const handleSubmit = async data => { // The function that runs after "submit" is
 
 </script>
 
+<!-- ## MODAL ## -->
+
 {#if showModal} <!-- Conditional statement using Svelte -->
 
 <!-- The below statements ignore Svelte's ally conditions that determine all of the code in .modal as a "warning." -->
@@ -49,6 +51,8 @@ const handleSubmit = async data => { // The function that runs after "submit" is
     </div>
   </div>
 {/if}
+
+<!-- ## PAGE CONTENT ## -->
 
 <main class="contact">
 

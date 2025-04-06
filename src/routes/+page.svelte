@@ -1,5 +1,14 @@
 <script>
+	import { HomeCollectCard } from "$lib";
     import "./home.css"
+
+    let currentHighlight = 1;
+
+const highlights = {
+  1: '/about-pic1.png',
+  2: '/about-pic2.png',
+  3: '/about-pic3.png'
+};
 </script>
 
 <main class="home">
@@ -14,17 +23,75 @@
         <img id="banner" alt="border" src="/marla-banner.png" >
     </div>
 
-<div class="homeContent">
-    <div class="homeAbout">
-        <div class="homeAbtImg">
-            <img alt="Friends" src="/about-pic3.png">
+    <div class="homeWrap">
+        <div class="homeAbtWrap">
+            <div class="homeAbout">
+                <div class="homeAbtImg">
+                    <img alt="Friends" src="/about-pic3.png">
+                </div>
+                <div class="homeAbtText">
+                    <h1 style="font-size: 18px; font-weight: normal;">The lab, in the Information Communication Technology Complex Building at IU Indianapolis, has Nintendo consoles ranging from the original Nintendo Entertainment System to the Wii U. Luddy students can play classics such as Pac-Man and Space Invaders on an Atari 2600, which was released in 1977. Classic consoles are also on display, such as the Commodore VIC-20 from 1980 or Radio Shack’s TRS-80, a desktop microcomputer also launched in 1977.</h1>
+                <a href="/about">About Us</a>
+                </div>
+            </div>
+    </div>
+
+    <h1 class="homeHeader">Highlights</h1>
+
+    <div class="highlights-section">
+
+        <div class="image-container">
+            <img src={highlights[currentHighlight]} alt="Current Highlight" />
         </div>
-        <div class="homeAbtText">
-             <h1 style="font-size: 18px; font-weight: normal;">The lab, in the Information Communication Technology Complex Building at IU Indianapolis, has Nintendo consoles ranging from the original Nintendo Entertainment System to the Wii U. Luddy students can play classics such as Pac-Man and Space Invaders on an Atari 2600, which was released in 1977. Classic consoles are also on display, such as the Commodore VIC-20 from 1980 or Radio Shack’s TRS-80, a desktop microcomputer also launched in 1977.</h1>
-            <a href="/about">About Us</a>
+
+        <div class="buttons">
+            <button 
+              on:click={() => currentHighlight = 1} 
+              class:selected={currentHighlight === 1}>
+              Student Work collection
+            </button>
+            <button 
+              on:click={() => currentHighlight = 2} 
+              class:selected={currentHighlight === 2}>
+              Creature collection
+            </button>
+            <button 
+              on:click={() => currentHighlight = 3} 
+              class:selected={currentHighlight === 3}>
+              Game <br> collection
+            </button>
+          </div>          
+
+    </div>
+
+    <h1 class="homeHeader">Get involved in Lore Club!</h1>
+
+    <div class="loreClub">
+        <div class="loreImg"></div>
+        <div class="loreWrap"></div>
+        <div class="loreText">The LORE Club is a Luddy student organization hosted in MARLA that promotes the preservation and analysis of media new and old with a focus on gaming. In meetings students share their interests and personal works with other dedicated students in an engaged, open environment to expand horizons and get excited for upcoming projects or the latest news in the video game world. Learn more and get involved below!
+            <div class="loreBtns">
+                <a href="https://thespot.indianapolis.iu.edu/organization/lore">Check out our SPOT Page!</a>
+                <a href="https://discord.gg/G5kzgdZKTa">Join our Discord!</a> 
+            </div>
         </div>
     </div>
+
+    <div class="collectionsTop">
+        <h1 class="homeHeader">Collections</h1>
+        <a href="/collections">View more</a>
+    </div>
+
+    <div class="collectionsWrap">
+        <HomeCollectCard image="/collectCard1.png"/>
+        <HomeCollectCard image="/game.png"/>
+        <HomeCollectCard image="/collectCard2.png"/>
+    </div>
+
+    <h1 class="homeHeader">MARLA @ Luddy in Indianapolis</h1>
+
 </div>
+
 
 </main>
 
