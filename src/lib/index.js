@@ -6,3 +6,4 @@ export { default as MemberCard } from './memberCard/memberCard.svelte';
 export { default as CollectionCard } from './collectionCard/collectionCard.svelte';
 export { default as HomeCollectCard } from './homeCollectCard/homeCollectCard.svelte';
 export { default as BlogPost } from './blogPost/blogPost.svelte';
+export { default as NewsPost } from './newsPost/newsPost.svelte';
