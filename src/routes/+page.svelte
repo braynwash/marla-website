@@ -1,7 +1,9 @@
 <script>
-	import { HomeCollectCard } from "$lib";
+    import { HomeCollectCard } from "$lib";
+    import { NewsPost } from '$lib';
     import "./home.css"
-
+    
+    export let data;
     let currentHighlight = 1;
 
 const highlights = {
@@ -38,29 +40,32 @@ const highlights = {
 
     <h1 class="homeHeader">Highlights</h1>
 
-    <div class="highlights-section">
+    <div class="highlightSection">
 
-        <div class="image-container">
-            <img src={highlights[currentHighlight]} alt="Current Highlight" />
-        </div>
+        <div 
+  class="imageContainer" 
+  style="--bg-image: url({highlights[currentHighlight]})"
+>
+  <img src={highlights[currentHighlight]} alt="Current Highlight" />
+</div>
 
-        <div class="buttons">
-            <button 
-              on:click={() => currentHighlight = 1} 
-              class:selected={currentHighlight === 1}>
-              Student Work collection
-            </button>
-            <button 
-              on:click={() => currentHighlight = 2} 
-              class:selected={currentHighlight === 2}>
-              Creature collection
-            </button>
-            <button 
-              on:click={() => currentHighlight = 3} 
-              class:selected={currentHighlight === 3}>
-              Game <br> collection
-            </button>
-          </div>          
+<div class="buttons">
+  <button 
+    onclick={() => currentHighlight = 1} 
+    class:selected={currentHighlight === 1}>
+    Student Work collection
+  </button>
+  <button 
+    onclick={() => currentHighlight = 2} 
+    class:selected={currentHighlight === 2}>
+    Creature collection
+  </button>
+  <button 
+    onclick={() => currentHighlight = 3} 
+    class:selected={currentHighlight === 3}>
+    Game <br> collection
+  </button>
+</div>        
 
     </div>
 
@@ -89,6 +94,15 @@ const highlights = {
     </div>
 
     <h1 class="homeHeader">MARLA @ Luddy in Indianapolis</h1>
+    <div class="press-posts">
+		{#if data.summaries.length > 0}
+			{#each data.summaries as { slug, title, image, date, description } (slug)}
+				<NewsPost {image} {title} {description} {date} />
+			{/each}
+		{:else}
+			<p>Loading posts...</p>
+		{/if}
+	</div>
 
 </div>
 
