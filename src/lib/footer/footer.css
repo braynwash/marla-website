@@ -34,7 +34,7 @@ footer .siteNav {
 footer .siteNav .navRow {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 150px;
     margin-right: 125px;
 }
 

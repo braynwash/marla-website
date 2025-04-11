@@ -69,7 +69,7 @@ const highlights = {
 
     </div>
 
-    <h1 class="homeHeader">Get involved in Lore Club!</h1>
+    <h1 class="homeHeader">Get involved with Lore Club!</h1>
 
     <div class="loreClub">
         <div class="loreImg"></div>

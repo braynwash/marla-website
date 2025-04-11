@@ -24,10 +24,10 @@
 					<a href="/">Page</a>
 				</div>
 				<div class="navRow">
-					<h1 style="font-size: 22px;">Heading</h1>
-					<a href="/">Page</a>
-					<a href="/">Page</a>
-					<a href="/">Page</a>
+					<h1 style="font-size: 22px;">Collections</h1>
+					<a href="/">ROM Collection</a>
+					<a href="/">Cosmic Wonder</a>
+					<a href="/">Student work</a>
 				</div>
 				<div class="navRow">
 					<h1 style="font-size: 22px;">Heading</h1>
