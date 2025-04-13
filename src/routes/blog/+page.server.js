@@ -2,6 +2,9 @@ import { posts } from './data';
 
 export function load() {
 	return {
-		summaries: posts
+		summaries: posts.map((post) => ({
+			slug: post.slug,
+			title: post.title
+		}))
 	};
 }

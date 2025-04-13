@@ -4,6 +4,7 @@
 	export let title = 'Default Title';
 	export let description = 'Default description goes here.';
 	export let date = 'Date goes here.';
+	export let slug = 'slug';
 </script>
 
 <div class="blogPost">
@@ -11,4 +12,5 @@
 	<h3>{title}</h3>
 	<p>{description}</p>
 	<p><span>{date}</span></p>
+	<button><a href="/blog/{slug}">Read More!</a></button>
 </div>

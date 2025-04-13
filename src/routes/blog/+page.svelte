@@ -14,7 +14,7 @@
 	<div class="bgPosts">
 		{#if data.summaries.length > 0}
 			{#each data.summaries as { slug, title, image, date, description } (slug)}
-				<BlogPost {image} {title} {description} {date} />
+				<BlogPost {image} {title} {description} {date} {slug} />
 			{/each}
 		{:else}
 			<p>Loading posts...</p>
