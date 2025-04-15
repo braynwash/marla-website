@@ -1,6 +1,6 @@
 .blogPost {
 	max-width: 20vw;
-	min-height: 350px;
+	min-height: 300px;
 
 	display: flex;
 	align-items: flex-start;
@@ -37,7 +37,6 @@
 }
 
 .blogPost button {
-	max-height: 2.625rem;
 	padding: 0.825rem 2rem;
 	border-radius: 1rem;
 	font-family: var(--roboto-font);
