@@ -37,6 +37,7 @@
 }
 
 .blogPost button {
+	max-height: 2.625rem;
 	padding: 0.825rem 2rem;
 	border-radius: 1rem;
 	font-family: var(--roboto-font);
