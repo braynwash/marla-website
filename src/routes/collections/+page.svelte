@@ -13,10 +13,10 @@
      <div class="collectContentWrap">
         <div class="collectionsContent">
             <h1 id="collectionHead" style="font-family: 'VT323';">Collections</h1>
-               <CollectionCard title="ROM Collection" description="This is our ROM collection. It links to a CollectiveAccess instance."/>
-               <CollectionCard title="Cosmic Wonder MAS Creature Collection" description="This is our wonderful mysterious creature collection! This goes to a CollectiveAccess instance."/>
-               <CollectionCard title="Student Work" description="This is our Student Works collection! This goes to a CollectiveAccess instance."/>
-            <a id="viewAll" href="/"><Icon icon="pixelarticons:arrow-right" width="24" height="24" /> View all</a>
+               <CollectionCard title="ROM Collection" description="From the classics to hidden gems, check out our robust ROM collection!" link="/construction"/>
+               <CollectionCard title="Cosmic Wonder MAS Creature Collection" description="View our wonderous creature collection!" link="/construction"/>
+               <CollectionCard title="Student Work" description="Check out a wide assortment of work lovingly crafted by our Media Arts and Science students!" link="/construction"/>
+            <a id="viewAll" href="/construction"><Icon icon="pixelarticons:arrow-right" width="24" height="24" /> View all</a>
         </div>
      </div>
      

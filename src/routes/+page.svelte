@@ -88,9 +88,9 @@ const highlights = {
     </div>
 
     <div class="collectionsWrap">
-        <HomeCollectCard image="/collectCard1.png"/>
-        <HomeCollectCard image="/game.png"/>
-        <HomeCollectCard image="/collectCard2.png"/>
+        <HomeCollectCard title="ROM Collection" description="View our ROMs from the new to the old!" image="/collectCard1.png" link="/construction"/>
+        <HomeCollectCard title="Creature Collection" description="See our Cosmic Wonder creature collection!" image="/game.png" link="/construction"/>
+        <HomeCollectCard title="Student Work" description="Check out work made by our MAS students!" image="/collectCard2.png" link="/construction"/>
     </div>
 
     <h1 class="homeHeader">MARLA @ Luddy in Indianapolis</h1>
