@@ -45,7 +45,8 @@ For the next N420 group that takes on this site OR the members of MARLA Member C
 - [x] Working contact form
 - [x] Visible blog and press release "posts"
 - [x] "Posts" lead to a "Read More"/details page
-- [ ] Add copy and image content provided by MARLA Council
+- [x] Add custom copy
+- [ ] Add image content provided by MARLA Council
 - [ ] Self-host on Vercel/GitHub Pages
 - [ ] Connect "Collections" links to MARLA CollectiveAccess DB instances
 - [ ] Obtain IU server space and host with custom IU domain
