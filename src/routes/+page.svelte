@@ -16,9 +16,9 @@ const highlights = {
 <main class="home">
     <div class="hero">
         <div class="heroText">
-            <img alt="ROM Logo" src="/rom-logo.png">
+            <img alt="MARLA ROM Logo" src="/rom-logo.png">
             <h1>PRESERVE. STUDY. PLAY.</h1>
-            <p>where people can do really scholarly study on game design to be able to look every game with this genre, mechanic, etcetera, and actually be able to play them, study them, or write papers on them.</p>
+            <p>Where scholars, students, and gamers come together to explore the legacy of games and media. From rare finds to modern classics- every game has a story worth saving.</p>
             <a href="/collections">view collections</a>
         </div>
         <img id="controller" alt="3D render of a Game Controller" src="/controller.png">
@@ -29,10 +29,10 @@ const highlights = {
         <div class="homeAbtWrap">
             <div class="homeAbout">
                 <div class="homeAbtImg">
-                    <img alt="Friends" src="/about-pic3.png">
+                    <img alt="Two students playing a game in Japanese on the MARLA TV." src="/about-pic3.png">
                 </div>
                 <div class="homeAbtText">
-                    <h1 style="font-size: 18px; font-weight: normal;">The lab, in the Information Communication Technology Complex Building at IU Indianapolis, has Nintendo consoles ranging from the original Nintendo Entertainment System to the Wii U. Luddy students can play classics such as Pac-Man and Space Invaders on an Atari 2600, which was released in 1977. Classic consoles are also on display, such as the Commodore VIC-20 from 1980 or Radio Shack’s TRS-80, a desktop microcomputer also launched in 1977.</h1>
+                    <h1 style="font-size: 18px; font-weight: normal;">The Media Arts Research and Learning Arcade (MARLA) at the Luddy School of Informatics, Computing, and Engineering in IU Indianapolis is dedicated to exploring the cultural, historical, and technological significance of video games and interactive media. As one of the few academic spaces focused on game and media preservation in the Midwest, MARLA serves as both a research hub and a playable archive that bridges the gap between study and play by maintaining several collections of video games new and old.</h1>
                 <a href="/about">About Us</a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const highlights = {
   class="imageContainer" 
   style="--bg-image: url({highlights[currentHighlight]})"
 >
-  <img src={highlights[currentHighlight]} alt="Current Highlight" />
+  <img src={highlights[currentHighlight]} alt="" />
 </div>
 
 <div class="buttons">

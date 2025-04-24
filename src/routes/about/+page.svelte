@@ -13,42 +13,29 @@
 	<div class="ab">
 		<h1>About Us</h1>
 		<p>
-			The lab, in the Information Communication Technology Complex Building at IU Indianapolis, has
-			Nintendo consoles ranging from the original Nintendo Entertainment System to the Wii U. Luddy
-			students can play classics such as Pac-Man and Space Invaders on an Atari 2600, which was
-			released in 1977. Classic consoles are also on display, such as the Commodore VIC-20 from 1980
-			or Radio Shack’s TRS-80, a desktop microcomputer also launched in 1977.The lab, in the
-			Information Communication Technology Complex Building at IU Indianapolis, has Nintendo
-			consoles ranging from the original Nintendo Entertainment System to the Wii U.
+			The Media Arts Research and Learning Arcade (MARLA) at the Luddy School of Informatics, Computing, and Engineering in IU Indianapolis is dedicated to the research, preservation, and celebration of video game culture and history. Recognized officially as an IU Museum Collection, MARLA boasts an extensive library of video games, consoles, and interactive media both from offical studios and Luddy students, ensuring these artifacts remain accessible for education and enjoyment for years to come. Through providing hands-on experiences, dedicated collections, and active scholarship, MARLA emphasizes the cultural importance and impact of games as well as media, highlighting their impact as influential digital heritage that shapes society, art, and technology today and beyond.
 		</p>
 		<p>
-			Luddy students can play classics such as Pac-Man and Space Invaders on an Atari 2600, which
-			was released in 1977. Classic consoles are also on display, such as the Commodore VIC-20 from
-			1980 or Radio Shack’s TRS-80, a desktop microcomputer also launched in 1977.The lab, in the
-			Information Communication Technology Complex Building at IU Indianapolis, has Nintendo
-			consoles ranging from the original Nintendo Entertainment System to the Wii U. Luddy students
-			can play classics such as Pac-Man and Space Invaders on an Atari 2600, which was released in
-			1977. Classic consoles are also on display, such as the Commodore VIC-20 from 1980 or Radio
-			Shack’s TRS-80, a desktop microcomputer also launched in 1977.
+			Our mission is to protect, document, and showcase the evolution of games and media as vital artifacts of digital storytelling, artistic innovation, and community engagement. From classic arcade machines to modern, viral indie titles, MARLA ensures that future generations of students can study, experience, and appreciate the impact of gaming in all its forms. Whether you're a student looking to research games new and old or just a casual game enthusiast looking to get into some classic titles, MARLA invites you to step into the world of preserved play- where every pixel has a past.
 		</p>
 	</div>
 
 	<div class="about-pics">
 		<div class="about-pic">
 			<img src="/about-pic1.png" alt="Nintendo Super" />
-			<p>The lab, in the Information Communication Technology Complex</p>
+			<p> A Nintendo Entertainment System (NES)- one of the many available consoles in the lab!</p>
 		</div>
 		<div class="about-pic">
 			<img src="/about-pic2.png" alt="Nintendo Super" />
-			<p>The lab, in the Information Communication Technology Complex</p>
+			<p>MARLA Council members Haven Hamelin (left) and Mathew Powers (right) in the lab.</p>
 		</div>
 		<div class="about-pic">
 			<img src="/about-pic3.png" alt="Nintendo Super" />
-			<p>The lab, in the Information Communication Technology Complex</p>
+			<p>Two students playing a 3D horror game on the lab TV localized in Japanese.</p>
 		</div>
 	</div>
 	<div class="ab">
-		<h1>Meet Our Members</h1>
+		<h1 style="margin-bottom: 30px;">Meet Our Members</h1>
 		<div class="members">
 			<MemberCard name="Mathew Powers" />
 			<MemberCard image="/member-haven.jpg" name="Haven Hamelin"/>
