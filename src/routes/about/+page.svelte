@@ -22,15 +22,15 @@
 
 	<div class="about-pics">
 		<div class="about-pic">
-			<img src="/about-pic1.png" alt="Nintendo Super" />
+			<img src="/about-pic1.png" alt="A Nintendo Entertainment System on a beige TV stand next to a Sonic Mania Collector's box." />
 			<p> A Nintendo Entertainment System (NES)- one of the many available consoles in the lab!</p>
 		</div>
 		<div class="about-pic">
-			<img src="/about-pic2.png" alt="Nintendo Super" />
+			<img src="/about-pic2.png" alt="A front view of MARLA Council members Haven Hamelin on the left and Mathew Powers on the right with their hands over each others' shoulders smiling in the lab against many different posters, prints, and memorbilia in the lab." />
 			<p>MARLA Council members Haven Hamelin (left) and Mathew Powers (right) in the lab.</p>
 		</div>
 		<div class="about-pic">
-			<img src="/about-pic3.png" alt="Nintendo Super" />
+			<img src="/about-pic3.png" alt="Two students, one with blonde curly hair and one with brown coily hair, playing a video game in Japanese with a large flat-screen TV in the middle. Memorbilia, trinkets, and console boxes are laid around the counter and walls around the TV." />
 			<p>Two students playing a 3D horror game on the lab TV localized in Japanese.</p>
 		</div>
 	</div>
@@ -39,10 +39,11 @@
 		<div class="members">
 			<MemberCard name="Mathew Powers" />
 			<MemberCard image="/member-haven.jpg" name="Haven Hamelin"/>
-			<MemberCard image="/member-sam.png" name="Sam Barks" role="Council Member, Student" quote="Game Preservation to me is something we should all work towards." about="I am a full time student at IU Indy working on the Council for the Marla Museum. I love collecting anything video games and showing people how important it is to do so!"/>
+			<MemberCard image="/member-sam.png" name="Sam Barks" role="Council Member, Student" quote="Game Preservation is something we should all work towards." about="I am a full time student at IU Indy working on the Council for the Marla Museum. I love collecting anything video games and showing people how important it is to do so!"/>
 			<MemberCard image="member-gary.png" name="Gary Maxiner III"/>
 			<MemberCard image="member-jason.jpg" name="Jason Peercy"/>
 			<MemberCard image="member-zeb.jpg" name="Zebulun Wood" />
+			<MemberCard image="member-erin.jpg" name="Erin Brady"/>
 		</div>
 	</div>
 </main>

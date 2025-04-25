@@ -37,12 +37,17 @@
 }
 
 .blogPost button {
-	padding: 0.825rem 2rem;
+	padding: 20px 30px;
 	border-radius: 1rem;
 	font-family: var(--roboto-font);
 	background-color: var(--primary-color);
 	color: #fff;
 	border: solid 1px var(--tertiary-color);
+	border-style: none;
+}
+
+.blogPost button:hover {
+	background-color: #377B80;
 }
 
 .blogPost button a {
