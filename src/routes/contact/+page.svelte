@@ -40,7 +40,8 @@ const handleSubmit = async data => { // The function that runs after "submit" is
 
 {#if showModal} <!-- Conditional statement using Svelte -->
 
-<!-- The below statements ignore Svelte's ally conditions that determine all of the code in .modal as a "warning." -->
+<!-- The below statements ignore Svelte's ally conditions that determine all of the code in .modal as a "warning." Won't break anything if it's deleted but WILL cause the modal code to show up as a "warning" -->
+
 <!-- svelte-ignore a11y-click-events-have-key-events -->
   <!-- svelte-ignore a11y-no-static-element-interactions -->
 
