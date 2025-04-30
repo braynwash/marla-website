@@ -12,5 +12,5 @@
 	<h3>{title}</h3>
 	<p>{description}</p>
 	<p><span>{date}</span></p>
-	<button class="blogButton"><a class="blogAnchors" href="/blog/{slug}">Read More!</a></button>
+	<a class="blogButton blogAnchors" href="/blog/{slug}">Read More!</a>
 </div>
