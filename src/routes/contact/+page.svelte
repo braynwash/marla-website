@@ -72,7 +72,7 @@ const handleSubmit = async data => { // The function that runs after "submit" is
                     <span><Icon icon="pixelarticons:home" class="contactIcon" />IT 420</span>
                     <span><Icon icon="pixelarticons:clock" class="contactIcon" />Weekdays from 9 AM - 5 PM</span>
                     <span><Icon icon="pixelarticons:mail" class="contactIcon" />marlalab@iu.edu</span>
-                    <span><Icon icon="pixelarticons:device-phone" class="contactIcon" /><a style="margin-right: 5px;" href="https://www.instagram.com/iuiluddy/">@iuiluddy </a> on Instagram</span>
+                    <span><Icon icon="pixelarticons:device-phone" class="contactIcon" /><a style="margin-right: 5px;" href="https://www.instagram.com/iuiluddy/">@iuiluddy </a></span>
                 </div>
             </div>
 
