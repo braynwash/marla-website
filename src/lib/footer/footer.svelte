@@ -8,12 +8,18 @@
 		<div class="wrapper">
 
 			<!-- The class below contains the logo. Same functionality as the logo div in nav.svelte. -->
-			<div class="logo">
-				<a href="/">
-					<img src="/iu-marla-logo.png"
-					alt="Acronym Marla: Media Arts Research and Learning Arcade. With IU Indianapolis Logo."/>
-				</a>
-			</div>
+			 <div class="logoWrap">
+				<div class="logo">
+					<a href="/">
+						<img src="/iu-marla-logo-transparent.png"
+						alt="Acronym Marla: Media Arts Research and Learning Arcade. With IU Indianapolis Logo."/>
+					</a>
+					<div class="footerText">
+						The Media Arts Research and Learning Arcade (MARLA) at the Luddy School of Informatics, Computing, and Engineering in IU Indianapolis is dedicated to exploring the cultural, historical, and technological significance of video games and interactive media as a whole. 
+					</div>
+				</div>
+			 </div>
+			
 
 			<!-- The class below contains the different page links under a header defining the "category" of page. If you wish to add, delete, or edit any section, just add a new a tag and link the PAGES FILE NAME with a backslash in front to link to the new page. If you delete or add an entire section, you may need to edit the distance between in footer.css-->
 			<div class="siteNav">

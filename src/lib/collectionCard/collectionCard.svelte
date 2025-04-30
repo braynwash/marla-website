@@ -1,5 +1,7 @@
 <script>
 	import './collectionCard.css';
+    export let img = "/game.png";
+    export let alt = "Alt text for the collection image."
     export let title = "Default Title";
     export let description = "Default description goes here.";
     export let link = "/";
@@ -7,7 +9,7 @@
 
 <div class="collectionCard">
     <div class="cardPic">
-        <img src="/game.png" alt="">
+        <img src="{img}" alt="{alt}">
     </div>
     <div class="cardText">
         <h1>{title}</h1>

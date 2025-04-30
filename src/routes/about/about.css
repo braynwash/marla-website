@@ -46,6 +46,7 @@
 	font-family: var(--roboto-font);
 	font-size: 18px;
 	font-weight: 400;
+	line-height: 25px;
 }
 
 .about-pics {
@@ -75,6 +76,7 @@
 	font-family: var(--roboto-font);
 	font-size: 18px;
 	font-weight: 400;
+	margin-top: 15px;
 }
 
 .members {

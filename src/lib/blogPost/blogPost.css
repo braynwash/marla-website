@@ -36,13 +36,18 @@
 	color: #494949;
 }
 
-.blogButton {
-	padding: 0.825rem 2rem;
+.blogPost button {
+	padding: 20px 30px;
 	border-radius: 1rem;
 	font-family: var(--roboto-font);
 	background-color: var(--primary-color);
 	color: #fff;
 	border: solid 1px var(--tertiary-color);
+	border-style: none;
+}
+
+.blogPost button:hover {
+	background-color: #377b80;
 }
 
 .blogAnchors {
