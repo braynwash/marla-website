@@ -8,7 +8,7 @@
 }
 
 .collectionCard .cardPic {
-    width: 25%;
+    min-width: 25%;
     border-radius: 20px;
 }
 
@@ -52,4 +52,31 @@
 .collectionCard .cardText a:hover {
     background-color: #F27447;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .collectionCard {
+        height: 200px;
+    }
+    .collectionCard .cardPic {
+        width: 35%;
+    }
+    .collectionCard .cardText {
+        width: 65%;
+        margin-left: 5%;
+    }
+    .collectionCard .cardText h1 {
+    font-size: 30px;
+    }
+    .collectionCard .cardText span {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .collectionCard .cardText .collectionBtn {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For phones */
 }

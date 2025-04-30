@@ -38,3 +38,13 @@
 #viewAll:hover {
     color: black;
 }
+
+@media (max-width: 768px) {
+    .collectionsHero {
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* For phones */
+}
