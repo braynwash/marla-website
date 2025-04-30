@@ -2,18 +2,18 @@
 	background-color: #fff;
 	width: 100%;
 
-	/* padding-top: 3rem; */
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: left;
 	font-family: var(--roboto-font);
 
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .blogSlug img {
@@ -24,4 +24,21 @@
 	object-position: center;
 
 	margin-bottom: 2em;
+}
+
+.blogSlug h1 {
+	font-family: var(--vt324-font);
+}
+
+.blogSlug h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: var(--roboto-font);
+}
+
+.date {
+	color: var(--tertiary-color);
 }

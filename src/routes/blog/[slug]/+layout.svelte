@@ -8,7 +8,7 @@
 	</main>
 </div>
 
-<style>
+<!-- <style>
 	@media (min-width: 640px) {
 		.layout {
 			display: grid;
@@ -16,4 +16,4 @@
 			grid-template-columns: 1fr 16em;
 		}
 	}
-</style>
+</style> -->
