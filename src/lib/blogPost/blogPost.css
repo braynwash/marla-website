@@ -1,6 +1,6 @@
 .blogPost {
 	max-width: 20vw;
-	min-height: 300px;
+	max-height: 335px;
 
 	display: flex;
 	align-items: flex-start;
@@ -36,7 +36,7 @@
 	color: #494949;
 }
 
-.blogPost button {
+.blogButton {
 	padding: 0.825rem 2rem;
 	border-radius: 1rem;
 	font-family: var(--roboto-font);
@@ -45,7 +45,7 @@
 	border: solid 1px var(--tertiary-color);
 }
 
-.blogPost button a {
+.blogAnchors {
 	text-decoration: none;
 	color: #fff;
 }
