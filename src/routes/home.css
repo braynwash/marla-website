@@ -301,7 +301,7 @@ z-index: 10;
   .home p { font-size: 14px !important; } 
 
   .home .hero {
-    height: 460px;
+    height: 430px;
   }
   .home .hero .heroText {
     margin-left: 50px;
@@ -321,16 +321,17 @@ z-index: 10;
     margin-top: 15px;
   }
   #controller {
-    top: 50px;
-    width: 400px;
+    top: 75px;
+    width: 350px;
   }
   #banner {
     top: 300px;
-    height: 300px;
+    height: 250px;
   }
   .homeAbout {
     display: block;
-    margin-top: 200px;
+    width: 90%;
+    margin-top: 175px;
   }
   .homeAbout img {
     height: 100%;
@@ -352,13 +353,14 @@ z-index: 10;
   }
   .homeHeader {
     margin-top: 75px;
+    font-size: 40px;
   }
   .loreImg {
     margin-right: 5%;
   }
   .loreClub {
     font-size: 14px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .loreText {
     line-height: 25px;
