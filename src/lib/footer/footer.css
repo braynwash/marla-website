@@ -1,11 +1,11 @@
 footer {
     background-color: #EEEEEE;
-    height: 489px;
+    height: 515px;
     margin-top: 100px;
 }
 
 footer .content {
-    height: 390px;
+    height: 415px;
     padding-top: 75px;
 }
 
@@ -82,10 +82,17 @@ footer .bottom {
     align-items: center;
     justify-content: center;
     color: #FFF;
-    font-size: 12px;
+    font-size: 18px;
+    font-family: "Roboto-Serif";
 }
 
 @media (max-width: 768px) {
+    footer {
+        height: 495px;
+    }
+    footer .content {
+        height: 380px;
+    }
     footer .logoWrap {
         width: 70%;
     }
@@ -107,7 +114,7 @@ footer .bottom {
         height: 50px;
         margin-top: 55px;
     }
-    footer .bottom p {
+    footer .bottom span {
         font-size: 12px;
     }
 }

@@ -40,7 +40,7 @@
                     <img alt="Two students playing a game in Japanese on the MARLA TV." src="/about-pic3.png">
                 </div>
                 <div class="homeAbtText">
-                    <h1 style="font-size: 18px; font-weight: normal;">The Media Arts Research and Learning Arcade (MARLA) at the Luddy School of Informatics, Computing, and Engineering in IU Indianapolis is dedicated to exploring the cultural, historical, and technological significance of video games and interactive media. As one of the few academic spaces focused on game and media preservation in the Midwest, MARLA serves as both a research hub and a playable archive that bridges the gap between study and play by maintaining several collections of video games new and old.</h1>
+                    <p style="font-weight: normal;">The Media Arts Research and Learning Arcade (MARLA) at the Luddy School of Informatics, Computing, and Engineering in IU Indianapolis is dedicated to exploring the cultural, historical, and technological significance of video games and interactive media. As one of the few academic spaces focused on game and media preservation in the Midwest, MARLA serves as both a research hub and a playable archive that bridges the gap between study and play by maintaining several collections of video games new and old.</p>
                 <a href="/about">About Us</a>
                 </div>
             </div>

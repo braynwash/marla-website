@@ -1,5 +1,7 @@
+.home p { font-size: 16px !important; } /* font override- for some reason indiviual p tags won't adjust to a font size? just make all p tags 16px and adjust size for each screen size. */
+
 .home {
-    height: 4000px;
+    min-height: 4000px;
     width: 100%;
     background-color: white;
     position: relative;
@@ -31,8 +33,8 @@ z-index: 10;
     margin-bottom: 0px;
 }
 
-.heroText p {
-    font-size: 18px;
+.heroText {
+    font-size: 16px;
     font-family: "Roboto-Serif";
     margin-bottom: 35px;
 }
@@ -78,7 +80,7 @@ z-index: 10;
 }
 
 .homeAbout {
-    height: 335px;
+    min-height: 335px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -89,8 +91,8 @@ z-index: 10;
 }
 
 .homeAbout img {
-    height: 290px;
-    width: 350px;
+    height: 300px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -99,14 +101,14 @@ z-index: 10;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 30%;
-    margin-right: 55px;
+    min-width: 30%;
+    margin-right: 3%;
 }
 
 .homeAbtText {
     width: 70%;
     line-height: 30px;
-    font-size: 18px; 
+    font-size: 12px !important; 
     font-family: "Roboto-Serif";
 }
 
@@ -116,8 +118,8 @@ z-index: 10;
     text-decoration: none;
     outline: 2px solid #F27447;
     display: inline-block;
-    margin-top: 10px;
     padding: 10px 15px;
+    font-size: 16px;
 }
 
 .homeAbtText a:hover {
@@ -211,6 +213,7 @@ z-index: 10;
   .loreClub {
     height: 300px;
     display: flex;
+    font-size: 16px;
   }
 
   .loreImg {
@@ -219,13 +222,12 @@ z-index: 10;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    width: 30%;
+    min-width: 30%;
     margin-right: 55px;
   }
 
   .loreText {
     width: 70%;
-    font-size: 18px;
     line-height: 31px;
     align-self: center;
     font-family: "Roboto-Serif";
@@ -233,7 +235,7 @@ z-index: 10;
 
   .loreBtns {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
   }
 
@@ -244,6 +246,7 @@ z-index: 10;
         margin-right: 30px;
         color: #272423;
         text-decoration: none;
+        font-size: 16px;
 }
 
 .loreBtns a:hover {
@@ -278,4 +281,18 @@ z-index: 10;
     display: flex;
     justify-content: space-between;
     height: 535px;
+}
+
+@media (max-width: 1024px) {
+  .homeWrap {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For tablets */
+}
+
+@media (max-width: 480px) {
+  /* For phones */
 }
