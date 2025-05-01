@@ -23,7 +23,8 @@
                <CollectionCard title="Student Work" description="Check out a wide assortment of work lovingly crafted by our Media Arts and Science students!" link="/construction"/>
 
                <!-- "view all" button that, in the future will take users to the entire collectiveaccess collections. -->
-            <a id="viewAll" href="/construction"><Icon icon="pixelarticons:arrow-right" width="24" height="24" /> View all</a>
+                <a id="viewAll" href="/construction"><Icon id="viewIcon" icon="pixelarticons:arrow-right" /> View all</a>
+                
         </div>
 
      </div>
