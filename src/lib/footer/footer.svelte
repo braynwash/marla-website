@@ -24,13 +24,13 @@
 			<!-- The class below contains the different page links under a header defining the "category" of page. If you wish to add, delete, or edit any section, just add a new a tag and link the PAGES FILE NAME with a backslash in front to link to the new page. If you delete or add an entire section, you may need to edit the distance between in footer.css-->
 			<div class="siteNav">
 				<div class="navRow">
-					<h1 style="font-size: 22px;">About MARLA</h1>
+					<h1>About MARLA</h1>
 					<a href="/">Home</a>
 					<a href="/about">About us</a>
 					<a href="/contact">Contact us</a>
 				</div>
 				<div class="navRow">
-					<h1 style="font-size: 22px;">Collections</h1>
+					<h1>Collections</h1>
 					<a href="/construction">ROM Collection</a>
 					<a href="/construction">Cosmic Wonder</a>
 					<a href="/construction">Student work</a>
