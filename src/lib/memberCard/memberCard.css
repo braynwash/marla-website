@@ -8,7 +8,7 @@
 .member {
 	min-width: 38vw;
 	max-width: 38vw;
-	height: 250px;
+	min-height: 250px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
