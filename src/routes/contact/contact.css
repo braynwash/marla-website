@@ -238,12 +238,16 @@ textarea:focus {
 }
 
 @media (max-width: 1230px) {
+	.contactHero {
+		height: 250px;
+	}
 	.contactContent {
 		display: block;
-		height: 1500px;
+		height: 1450px;
+		margin-top: 50px;
 	}
     .contactInfo {
-		height: 500px;
+		height: 450px;
 		width: 100%;
 		display: flex;
 		justify-content: space-evenly;
@@ -258,7 +262,7 @@ textarea:focus {
 	}
 	
 	.contactBox span {
-		font-size: 15px;
+		font-size: 13px;
 		margin-top: 30px;
 		align-self: center;
 	}
@@ -269,7 +273,7 @@ textarea:focus {
 		color: black;
 	}
 	#box1, #box2 {
-		width: 40%;
+		width: 45%;
 		height: 100%;
 	}
 	#box2 {
@@ -278,8 +282,11 @@ textarea:focus {
 	.contactForm {
 		width: 100%;
 		margin-left: 0;
-		margin-top: 100px;
+		margin-top: 75px;
 		text-align: center;
+	}
+	.contactForm input, textarea, form select, #submit {
+		font-size: 16px;
 	}
 }
 

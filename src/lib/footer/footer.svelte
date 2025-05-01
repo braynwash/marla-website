@@ -40,6 +40,6 @@
 	</div>
 	<!-- The below class contains the dark gray "copyright" text. The text can be altered whenever without any issue. -->
 	<div class="bottom">
-		<h1 style="margin-top: 20px; font-size:20px;">Copyright 2025 All rights Reserved</h1>
+		<p style="margin-top: 20px;">Copyright 2025 All rights Reserved</p>
 	</div>
 </footer>

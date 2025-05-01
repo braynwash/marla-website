@@ -82,7 +82,7 @@ footer .bottom {
     align-items: center;
     justify-content: center;
     color: #FFF;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -97,11 +97,18 @@ footer .bottom {
         height: 50px;
         width: 300px;
     }
-    footer .logo .footerText {
+    footer .footerText {
         font-size: 14px;
     }
     footer .siteNav .navRow a {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    footer .bottom {
+        height: 50px;
+        margin-top: 55px;
+    }
+    footer .bottom p {
+        font-size: 12px;
     }
 }
 
