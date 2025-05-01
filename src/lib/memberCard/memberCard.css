@@ -8,8 +8,8 @@
 }
 
 .member {
-	/* min-width: 38vw; */
-	max-width: 450px;
+	min-width: 38vw;
+	max-width: 38vw;
 	min-height: 250px;
 	display: flex;
 	align-items: center;
@@ -54,7 +54,7 @@ p {
 	font-weight: 600;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.member {
 		max-width: 400px;
 	}
