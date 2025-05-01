@@ -11,6 +11,6 @@
         <div class="collectCardWrap">
             <h2>{title}</h2>
             {description}
-            <a href={link}>Read more</a>
+            <a href={link}>View</a>
         </div>
 </div>

@@ -1,7 +1,7 @@
 .home p { font-size: 16px !important; } /* font override- for some reason indiviual p tags won't adjust to a font size? just make all p tags 16px and adjust size for each screen size. */
 
 .home {
-    min-height: 4000px;
+    min-height: 100px;
     width: 100%;
     background-color: white;
     position: relative;
@@ -46,6 +46,7 @@ z-index: 10;
     outline: 2px solid white;
     padding: 15px 10px;
     display: inline-block;
+    margin-top: 20px;
 }
 
 .heroText a:hover {
@@ -266,7 +267,7 @@ z-index: 10;
     background-color: #F27447;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 32px;
     border-radius: 5px;
 }
@@ -283,14 +284,101 @@ z-index: 10;
     height: 535px;
 }
 
+.home .press-posts{
+  margin-bottom: 75px;
+}
+
 @media (max-width: 1024px) {
   .homeWrap {
     width: 90%;
   }
+  .home .collectionsWrap {
+    height: 550px;
+  }
 }
 
 @media (max-width: 768px) {
-  /* For tablets */
+  .home p { font-size: 14px !important; } 
+
+  .home .hero {
+    height: 460px;
+  }
+  .home .hero .heroText {
+    margin-left: 50px;
+    width: 400px;
+  }
+  .heroText {
+    font-size: 14px;
+  }
+  .heroText img {
+    height: 50px;
+    margin-top: 25px;
+  }
+  .heroText h1 {
+    font-size: 55px;
+  }
+  .heroText a {
+    margin-top: 15px;
+  }
+  #controller {
+    top: 50px;
+    width: 400px;
+  }
+  #banner {
+    top: 300px;
+    height: 300px;
+  }
+  .homeAbout {
+    display: block;
+    margin-top: 200px;
+  }
+  .homeAbout img {
+    height: 100%;
+  }
+  .homeAbtImg {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    height: 350px;
+    margin-bottom: 25px;
+  }
+  .homeAbtText {
+    width: 100%;
+    text-align: center;
+  }
+  .homeAbtText a {
+    text-align: center;
+    width: 80%;
+  }
+  .homeHeader {
+    margin-top: 75px;
+  }
+  .loreImg {
+    margin-right: 5%;
+  }
+  .loreClub {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  .loreText {
+    line-height: 25px;
+  }
+  .loreBtns {
+    flex-direction: column;
+  }
+  .loreBtns a {
+    font-size: 14px;
+    text-align: center;
+    margin-right: 0;
+    padding: 5px;
+    margin-bottom: 10px; 
+  }
+  .home .collectionsTop a {
+    font-size: 14px;
+  }
+  .home .collectionsWrap {
+    height: 450px;
+  }
 }
 
 @media (max-width: 480px) {

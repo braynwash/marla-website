@@ -1,15 +1,15 @@
 .collectionsWrap .homeCollectCard {
     background-color: white;
     border: 1px solid #0000001f;
-    height: 100%;
-    width: 415px;
+    height: 550px;
+    width: 30%;
     border-radius: 20px;
     overflow: hidden;
     font-family: "Roboto-Serif";
 }
 
 .collectionsWrap .homeCollectCard img {
-    height: 370px;
+    height: 70%;
     margin-bottom: 10px;
 }
 
@@ -39,3 +39,28 @@
     background-color: #F27447;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .collectionsWrap .homeCollectCard {
+        width: 32%;
+        height: 400px !important;
+    }
+    .collectionsWrap .homeCollectCard img {
+        height: 250px;
+    }
+    .collectCardWrap {
+        font-size: 14px;
+    }
+    .homeCollectCard h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .homeCollectCard a {
+        padding: 5px 60px;
+        margin-bottom: 0;
+    }
+  }
+
+@media (max-width: 480px) {
+    /* For phones */
+  }
