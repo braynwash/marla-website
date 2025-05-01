@@ -87,3 +87,18 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+@media (max-width: 700px) {
+	.about-pics {
+		flex-direction: column;
+	}
+
+	.about-pic img {
+		width: 40vw;
+		height: auto;
+	}
+
+	.members {
+		flex-direction: column;
+	}
+}
