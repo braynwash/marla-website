@@ -10,4 +10,7 @@
 	{#if data.post.image}
 		<img src={data.post.image} alt={data.post.title} />
 	{/if}
+	{#if data.post.content}
+		<div>{@html data.post.content}</div>
+	{/if}
 </main>

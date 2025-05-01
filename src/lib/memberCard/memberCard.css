@@ -1,13 +1,15 @@
 .memberWrap {
 	border: 1px solid rgba(0, 0, 0, 0.174);
 	padding: 12px;
-	margin-bottom: 2rem;
+	/* margin-bottom: 2rem; */
+	margin: 0 3px 2rem 3px;
 	border-radius: 10px;
+	/* background-color: chocolate; */
 }
 
 .member {
-	min-width: 38vw;
-	max-width: 38vw;
+	/* min-width: 38vw; */
+	max-width: 450px;
 	min-height: 250px;
 	display: flex;
 	align-items: center;
@@ -18,8 +20,8 @@
 	background-color: cadetblue;
 	width: 250px;
 	height: 250px;
-	margin-right: 1vw;
-	border-radius: 5px;
+	margin-right: 20px;
+	border-radius: 10px;
 }
 
 .img img {
@@ -50,4 +52,10 @@ p {
 	font-family: var(--roboto-font);
 	font-size: 14px !important;
 	font-weight: 600;
+}
+
+@media (max-width: 600px) {
+	.member {
+		max-width: 400px;
+	}
 }
