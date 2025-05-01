@@ -35,6 +35,11 @@
     font-family: "VT323";
 }
 
+#viewIcon {
+    width: 24px;
+    height: 24px;
+}
+
 #viewAll:hover {
     color: black;
 }
@@ -46,5 +51,27 @@
 }
 
 @media (max-width: 480px) {
-    /* For phones */
+    .collectionsContent {
+        width: 90%;
+    }
+    .collectionsHero {
+        height: 250px;
+    }
+    #viewAll {
+        font-size: 20px;
+    }
+    #viewIcon {
+        width: 15px;
+        height: 15px;
+    }
+    #collectionHead {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .collectionsHero {
+        height: 200px;
+    }
 }
