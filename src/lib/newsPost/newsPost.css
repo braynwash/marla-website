@@ -42,3 +42,24 @@
 	font-weight: 400;
 	color: #494949;
 }
+
+.newsAnchors {
+	text-decoration: none;
+	color: #fff;
+}
+
+.newsButton {
+	padding: 0.825rem 2rem;
+	border-radius: 1rem;
+	font-family: var(--roboto-font);
+	background-color: var(--primary-color);
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+}
+
+.newsButton:hover {
+	background-color: #377b80;
+}

@@ -15,7 +15,7 @@
 	<div class="press-posts">
 		{#if data.summaries.length > 0}
 			{#each data.summaries as { slug, title, image, date, description } (slug)}
-				<NewsPost {image} {title} {description} {date} />
+				<NewsPost {image} {title} {description} {date} {slug} />
 			{/each}
 		{:else}
 			<p>Loading posts...</p>

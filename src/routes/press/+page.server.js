@@ -2,6 +2,12 @@ import { posts } from '../../lib/data';
 
 export function load() {
 	return {
-		summaries: posts
+		summaries: posts.map((post) => ({
+			slug: post.slug,
+			title: post.title,
+			image: post.image,
+			date: post.date,
+			description: post.description
+		}))
 	};
 }
