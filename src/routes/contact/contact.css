@@ -244,6 +244,7 @@ textarea:focus {
 	.contactContent {
 		display: block;
 		height: 1450px;
+		width: 90%;
 		margin-top: 50px;
 	}
     .contactInfo {
