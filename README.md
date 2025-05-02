@@ -46,13 +46,13 @@ For the next N420 group that takes on this site OR the members of MARLA Member C
 - [x] Visible blog and press release "posts"
 - [x] "Posts" lead to a "Read More"/details page
 - [x] Add custom copy
-- [ ] Add image content provided by MARLA Council
-- [ ] Self-host on Vercel/GitHub Pages
+- [ ] Add full image content provided by MARLA Council
+- [x] Self-host on Vercel/GitHub Pages
 - [ ] Connect "Collections" links to MARLA CollectiveAccess DB instances
 - [ ] Obtain IU server space and host with custom IU domain
 - [ ] Integrate IU Content Management System (LiveWhale) in blog and press release pages
 
 ## Credits
 
-**Spring 25 Programmers:** [CJ Eilestine](https://github.com/CJ-Eilenstine) and [Jeremy Black](https://github.com/braynwash)
+**Spring 25 Programmers:** [CJ Eilestine](https://github.com/CJ-Eilenstine) and [Jeremy Black](https://github.com/braynwash) <br>
 **Figma design:** Shivani Kolala Jayaprakash
