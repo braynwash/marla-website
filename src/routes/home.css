@@ -385,5 +385,91 @@ z-index: 10;
 }
 
 @media (max-width: 480px) and (max-device-width: 480px)  {
-  /* For phones */
+  .home p { font-size: 11px !important; } 
+
+  .home .hero {
+    height: 360px;
+  }
+  .home .hero .heroText {
+    margin-left: 20px;
+    width: 400px;
+  }
+  .heroText {
+    font-size: 12px;
+  }
+  .heroText img {
+    height: 40px;
+    margin-top: 55px;
+  }
+  .heroText h1 {
+    font-size: 45px;
+  }
+  .heroText a {
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+  #controller {
+    top: 125px;
+    width: 225px;
+  }
+  #banner {
+    top: 250px;
+    height: 200px;
+  }
+  .homeAbout {
+    display: block;
+    width: 100%;
+    margin-top: 150px;
+  }
+  .homeAbout img {
+    height: 100%;
+  }
+  .homeAbtImg {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    height: 250px;
+    margin-bottom: 25px;
+  }
+  .homeAbtText {
+    width: 100%;
+    text-align: center;
+  }
+  .homeAbtText a {
+    text-align: center;
+    width: 80%;
+    font-size: 14px;
+    padding: 4px 20px;
+  }
+  .homeHeader {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  .loreImg {
+    height: 70%;
+  }
+  .loreClub {
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .loreText {
+    line-height: 25px;
+  }
+  .loreBtns {
+    flex-direction: column;
+  }
+  .loreBtns a {
+    font-size: 14px;
+    text-align: center;
+    margin-right: 0;
+    padding: 5px;
+    margin-bottom: 10px; 
+  }
+  .home .collectionsTop a {
+    font-size: 14px;
+  }
+  .home .collectionsWrap {
+    height: 450px;
+  }
 }

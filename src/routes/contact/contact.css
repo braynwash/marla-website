@@ -237,7 +237,7 @@ textarea:focus {
 	border: 2px solid white;
 }
 
-@media (max-width: 1230px) and (max-device-width: 1230px)  {
+@media (max-width: 1230px) {
 	.contactHero {
 		height: 250px;
 	}
@@ -294,7 +294,7 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 480px) and (max-device-width: 480px)  {
+@media (max-width: 480px) {
 	.contactContent {
 		width: 95%;
 		height: 1425px;
@@ -353,7 +353,7 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 376px) and (max-device-width: 376px) {
+@media (max-width: 376px) {
 	.contactHero {
 		height: 150px;
 	}
@@ -377,7 +377,7 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 320px) and (max-device-width: 320px)  {
+@media (max-width: 320px) {
 	.contactContent {
 		height: 1350px;
 	}
