@@ -306,7 +306,7 @@ textarea:focus {
 	}
 	#box1, #box2 {
 		justify-self: center;
-		width: 90%;
+		width: 100%;
 		margin-bottom: 25px;
 	}
 	#box1 {
@@ -328,6 +328,15 @@ textarea:focus {
 	}
     .contactForm input, textarea, form select, #submit {
 		font-size: 14px;
+	}
+	.contactForm input {
+		border-bottom: 2px solid #57595e6c;
+	}
+	form select {
+		outline: 2px solid #57595e6c;
+	}
+	textarea {
+		border: 2px solid #57595e6c;
 	}
 	.contactForm select:focus {
 		font-size: 14px;
