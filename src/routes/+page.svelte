@@ -78,11 +78,10 @@
 </div>
 
     <!-- lore club section -->
-    <h1 class="homeHeader">Get involved with Lore Club!</h1>
+    <h1 id="loreHead" class="homeHeader">Get involved with Lore Club!</h1>
 
     <div class="loreClub">
         <div class="loreImg"></div>
-        <div class="loreWrap"></div>
         <div class="loreText">The LORE Club is a Luddy student organization hosted in MARLA that promotes the preservation and analysis of media new and old with a focus on gaming. In meetings students share their interests and personal works with other dedicated students in an engaged, open environment to expand horizons and get excited for upcoming projects or the latest news in the video game world. Learn more and get involved below!
             <div class="loreBtns">
                 <a href="https://thespot.indianapolis.iu.edu/organization/lore">Check out our SPOT Page!</a>
@@ -100,9 +99,9 @@
 
     <!-- component is titled "HomeCollectCard"- contains "image" "title" "description" and "link"  -->
     <div class="collectionsWrap">
-        <HomeCollectCard title="ROM Collection" description="View our ROMs from the new to the old!" image="/collectCard1.png" link="/construction"/>
-        <HomeCollectCard title="Creature Collection" description="See our Cosmic Wonder creature collection!" image="/game.png" link="/construction"/>
-        <HomeCollectCard title="Student Work" description="Check out work made by our MAS students!" image="/collectCard2.png" link="/construction"/>
+        <HomeCollectCard title="ROM Collection" description="View our ROMs from the new to the old!" image="/collectCard2.png" link="/construction"/>
+        <HomeCollectCard title="Creature Collection" description="See our Cosmic Wonder creature collection!" image="/collectCard1.png" link="/construction"/>
+        <HomeCollectCard title="Student Work" description="Check out work made by our MAS students!" image="/game.png" link="/construction"/>
     </div>
 
     <!-- press release cards- copies EXACTLY from the press post data from page.server.js in press folder, gets the data from +page.server.js in the root of routes -->

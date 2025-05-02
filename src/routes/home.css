@@ -382,6 +382,9 @@ z-index: 10;
   .home .collectionsWrap {
     height: 450px;
   }
+  .home .press-posts{
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px)  {
@@ -413,13 +416,13 @@ z-index: 10;
     width: 225px;
   }
   #banner {
-    top: 250px;
-    height: 200px;
+    top: 260px;
+    height: 175px;
   }
   .homeAbout {
     display: block;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 125px;
   }
   .homeAbout img {
     height: 100%;
@@ -442,8 +445,26 @@ z-index: 10;
     padding: 4px 20px;
   }
   .homeHeader {
-    margin-top: 50px;
+    margin-top: 75px;
     font-size: 40px;
+  }
+  .highlightSection {
+    height: 250px;
+    display: block;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  button {
+    height: 100px;
+    width: 30%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  #loreHead {
+    margin-top: 180px;
   }
   .loreImg {
     height: 70%;
@@ -451,10 +472,13 @@ z-index: 10;
   .loreClub {
     display: block;
     font-size: 12px;
+    text-align: center;
     margin-top: 20px;
   }
   .loreText {
     line-height: 25px;
+    width: 100%;
+    margin-top: 15px;
   }
   .loreBtns {
     flex-direction: column;
@@ -466,10 +490,19 @@ z-index: 10;
     padding: 5px;
     margin-bottom: 10px; 
   }
+  .home .collectionsTop .homeHeader {
+    margin-top: 275px;
+  }
   .home .collectionsTop a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .home .collectionsWrap {
-    height: 450px;
+    width: 100%;
+    height: 1300px;
+    flex-direction: column;
+  }
+  .home .press-posts{
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
