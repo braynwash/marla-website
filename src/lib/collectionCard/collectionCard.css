@@ -115,6 +115,9 @@
 }
 
 @media (max-width: 320px) {
+    .collectionCard {
+        height: 200px;
+    }
     .collectionCard .cardText {
         padding: 0 10px 0 10px;
     }
