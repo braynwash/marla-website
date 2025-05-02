@@ -44,13 +44,13 @@
     color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-device-width: 768px) {
     .collectionsHero {
         height: 500px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-device-width: 480px) {
     .collectionsContent {
         width: 90%;
     }
@@ -70,7 +70,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) and (max-device-width: 320px) {
     .collectionsHero {
         height: 200px;
     }

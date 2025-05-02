@@ -55,7 +55,7 @@
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-device-width: 768px)  {
     .collectionCard {
         height: 200px;
     }
@@ -83,7 +83,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-device-width: 480px)  {
     .collectionCard {
         min-height: 100px;
         margin-bottom: 35px;
@@ -114,7 +114,7 @@
         }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) and (max-device-width: 320px) {
     .collectionCard {
         height: 200px;
     }
