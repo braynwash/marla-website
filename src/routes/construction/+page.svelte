@@ -10,8 +10,8 @@ IF ALTERING COLLECTION LINKS: As of 4/16, all of our collection links that are i
 
 <div class="constructWrap">
     <div class="construction">
-         <h1 style="font-size:110px;color:#F27447;">Under Construction!</h1>
-         <h1 style="font-size:40px;margin-bottom:75px;">Please excuse us while we let our pixels bake a little longer.</h1>
+         <h1 style="color:#F27447;">Coming Soon!</h1>
+         <h1 class="constructText">Please excuse us while we let our pixels bake a little longer.</h1>
          <a href="/">Back to Home</a>
     </div>
 </div>

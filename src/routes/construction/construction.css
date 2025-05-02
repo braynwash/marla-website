@@ -13,7 +13,13 @@
 
 .construction h1 {
     margin-bottom: 15px;
+    font-size:130px;
     font-family: "VT323";
+}
+
+.construction .constructText {
+    font-size: 40px;
+    margin-bottom:75px;
 }
 
 .construction a {
@@ -24,3 +30,43 @@
     text-decoration: none;
     font-size: 18px;
 }
+
+@media (max-width: 768px) and (max-device-width: 768px) {
+    .construction h1 {
+        font-size:90px;
+    }
+}
+
+@media (max-width: 480px) and (max-device-width: 480px)  {
+    .construction {
+        width: 90%;
+    }
+    .construction h1 {
+        font-size:70px;
+    }
+    .construction .constructText {
+        font-size:30px;
+        margin-bottom: 50px;
+    }
+    .construction a {
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 380px) and (max-device-width: 380px) {
+    .construction {
+        width: 90%;
+    }
+    .construction h1 {
+        font-size:50px;
+    }
+    .construction .constructText {
+        font-size:20px;
+        margin-bottom: 50px;
+    }
+    .construction a {
+        font-size: 14px;
+    }
+  }
+
+  
