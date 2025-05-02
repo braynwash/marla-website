@@ -5,6 +5,7 @@
     border-radius: 20px;
     outline: 2px solid rgba(0, 0, 0, 0.089);
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .collectionCard .cardPic {
@@ -72,6 +73,11 @@
         font-size: 16px;
         margin-bottom: 0;
     }
+    .collectionCard .cardText a {
+        font-family: "Roboto-Serif";
+        font-size: 15px;
+        outline: 2px solid #F27447;
+    }
     .collectionCard .cardText .collectionBtn {
         margin-top: 25px;
     }
@@ -109,17 +115,23 @@
 }
 
 @media (max-width: 320px) {
+    .collectionCard .cardText {
+        padding: 0 10px 0 10px;
+    }
     .collectionCard .cardText h1 {
         font-size: 20px;
         margin-bottom: 10px;
         }
         .collectionCard .cardText span {
-            font-size: 12px;
+            font-size: 11px;
             margin-bottom: 0;
         }
         .collectionCard .cardText a {
-            font-size: 12px;
+            font-size: 11px;
             margin-top: 0;
             padding: 5px 15px;
+        }
+        .collectionCard .cardText .collectionBtn {
+            margin-top: 15px;
         }
 }
