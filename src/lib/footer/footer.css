@@ -136,7 +136,7 @@ footer .bottom {
         width: 100%;
     }
     footer .logo img {
-        height: 40px;
+        height: 20px;
         width: 100%;
     }
     footer .logo .footerText {
@@ -162,7 +162,7 @@ footer .bottom {
 
 @media (max-width: 320px) {
     footer .logo img {
-        height: 30px;
+        height: 20px;
         width: 100%;
     }
     footer .logo .footerText {
