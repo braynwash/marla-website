@@ -412,7 +412,7 @@ z-index: 10;
     margin-top: 10px;
   }
   #controller {
-    top: 125px;
+    top: 140px;
     width: 225px;
   }
   #banner {
@@ -504,5 +504,86 @@ z-index: 10;
   .home .press-posts{
     width: 100%;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 380px) {
+  .home .hero .heroText {
+    margin-left: 20px;
+    width: 350px;
+    font-size: 11px;
+  }
+  #controller {
+    top: 150px;
+    width: 200px;
+  }
+  .homeHeader {
+    margin-top: 75px;
+    font-size: 35px;
+  }
+  .home .collectionsTop .homeHeader {
+    margin-top: 300px;
+  }
+  button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .home p { font-size: 10px !important; }
+
+  .home .hero {
+    height: 280px;
+  }
+  .home .hero .heroText {
+    margin-left: 20px;
+    width: 80%;
+  }
+  .heroText {
+    font-size: 12px;
+  }
+  .heroText img {
+    height: 30px;
+    margin-top: 80px;
+  }
+  .heroText h1 {
+    font-size: 35px;
+  }
+  .heroText a {
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+  #controller {
+    top: 110px;
+    right: -15px;
+    width: 180px;
+  }
+  #banner {
+    top: 200px;
+    height: 150px;
+  }
+  .homeAbout {
+    display: block;
+    width: 100%;
+    margin-top: 125px;
+  }
+  .homeAbtText {
+    line-height: 23px;
+  }
+  .homeAbout img {
+    height: 100%;
+  }
+  .homeAbtImg {
+    height: 150px;
+    
+  }
+  .homeAbtText a {
+    font-size: 12px;
+  }
+  .home .collectionsTop .homeHeader {
+    margin-top: 350px;
+  }
+  .home .collectionsWrap {
+    height: 1350px;
   }
 }

@@ -81,3 +81,9 @@
         margin-bottom: 0;
     }
   }
+
+  @media (max-width: 380px) {
+    .collectionsWrap .homeCollectCard {
+        min-height: 420px;
+    }
+  }
