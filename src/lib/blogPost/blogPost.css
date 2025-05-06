@@ -1,18 +1,19 @@
 .blogPost {
-	max-width: 20vw;
+	max-width: 200px;
 	max-height: 335px;
 
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-direction: column;
-	/* margin: 1rem; */
+	/* background-color: #377b80; */
+	margin: 10px;
 }
 
 .blogPost img {
 	border-radius: 20px;
 
-	width: 20vw;
+	width: 100%;
 	height: auto;
 
 	margin-bottom: 0.825rem;
