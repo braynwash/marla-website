@@ -4,7 +4,7 @@
 
 # MARLA Website
 
-The following project is a website for the Luddy School of Informatics, Computing, and Engineering's Media Arts Research and Learning Lab (MARLA) in IU Indianapolis. The site was built using the [Svelte framework](https://svelte.dev/) by IU Indy Luddy students CJ Eilestine and Jeremy Black for the Spring 2025 session of Multi-Media Project Development (N420).
+The following project is a proof-of-concept website for the Luddy School of Informatics, Computing, and Engineering's Media Arts Research and Learning Lab (MARLA) in IU Indianapolis. The site was built using the [Svelte framework](https://svelte.dev/) by IU Indy Luddy students CJ Eilestine and Jeremy Black for the Spring 2025 session of Multi-Media Project Development (N420).
 
 > For future N420 students or MARLA Council members working on this website- if you have any questions or concerns about anything in this project (whether it be a line of code or an entire function), you can reach out to [me](https://github.com/braynwash) personally at *jereblac@iu.edu* or _jeremycore_ on Discord. I'm happy to clarify anything I can!
 
@@ -36,6 +36,14 @@ git remote -v # confirm the changes
 ### Run Locally
 
 To view the project on a live server, run `vite dev` in the terminal to get the live server running. A clickable localhost link will be displayed in the terminal that will take you to the live. The live updates as the code updates in real-time, so you don't need to refresh or re-reun the script to see site updates.
+
+### Deployment
+
+The project is currently staticly hosted through Vercel for testing and showcase purposes through this Github repository. Anytime a push to this repository gets updated on the main branch, the Vercel deployment will automatically begin updating to match the new build.
+
+### Additional packages
+
+The only other additional package used in this project is Iconify, which you've installed into your project from step 2 of the process above. If you're looking to add any pixelated icons, the set we used was titled "Pixelarticons" and can be found [here](https://icon-sets.iconify.design/pixelarticons/). When you click on an icon you wish to use, you can see a full breakdown of how to include it under `Components` and `Svelte` in the bottom tab of the icon. You can also see how icons are implemented and altered in the `contact` folder of this project.
 
 ## Roadmap
 
