@@ -17,9 +17,9 @@
 		aria-expanded={isOpen}
 		on:click={() => (isOpen = !isOpen)}
 	>
-		<div class="bar"></div>
-		<div class="bar"></div>
-		<div class="bar"></div>
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
 	</button>
 
 	<!-- The class below uses list elements around the anchor tags that serve as a "wrapper" for styling. If you wish to add a new page to the nav bar, add a new <li> element with an <a> tag inside. The href should lead to the PAGES FILE NAME with a backslash in front. -->

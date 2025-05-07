@@ -1,589 +1,596 @@
-.home p { font-size: 16px !important; } /* font override- for some reason indiviual p tags won't adjust to a font size? just make all p tags 16px and adjust size for each screen size. */
+.home p {
+	font-size: 16px !important;
+} /* font override- for some reason indiviual p tags won't adjust to a font size? just make all p tags 16px and adjust size for each screen size. */
 
 .home {
-    min-height: 100px;
-    width: 100%;
-    background-color: white;
-    position: relative;
-    overflow-x: hidden;
+	min-height: 100px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	overflow-x: hidden;
 }
 
 .home .hero {
-    height: 600px;
-    background-color: #272423;
-    display: flex;
-    align-items: center;
+	height: 600px;
+	background-color: #272423;
+	display: flex;
+	align-items: center;
 }
 
 .home .hero .heroText {
-color: white;
-height: 350px;
-width: 610px;
-margin-left: 120px;
-z-index: 10;
+	color: white;
+	height: 350px;
+	width: 610px;
+	margin-left: 120px;
+	z-index: 10;
 }
 
 .heroText img {
-    height: 81px;
+	height: 81px;
 }
 
 .heroText h1 {
-    font-size: 85px;
-    font-family: "Bebas";
-    margin-bottom: 0px;
+	font-size: 85px;
+	font-family: 'Bebas';
+	margin-bottom: 0px;
 }
 
 .heroText {
-    font-size: 16px;
-    font-family: "Roboto-Serif";
-    margin-bottom: 35px;
+	font-size: 16px;
+	font-family: 'Roboto-Serif';
+	margin-bottom: 35px;
 }
 
 .heroText a {
-    color: white;
-    font-family: "Roboto-Serif";
-    text-decoration: none;
-    outline: 2px solid white;
-    padding: 15px 10px;
-    display: inline-block;
-    margin-top: 20px;
+	color: white;
+	font-family: 'Roboto-Serif';
+	text-decoration: none;
+	outline: 2px solid white;
+	padding: 15px 10px;
+	display: inline-block;
+	margin-top: 20px;
 }
 
 .heroText a:hover {
-    outline-color: #F27447;
-    color: #F27447;
+	outline-color: #f27447;
+	color: #f27447;
 }
 
 #controller {
-    width: 550px;
-    position: absolute;
-    top: 100px;
-    right: 0;
-    transform: rotate(10deg);
-    z-index: 5;
+	width: 550px;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	transform: rotate(10deg);
+	z-index: 5;
 }
 
 #banner {
-    width: 100%;
-    height: 392px;
-    position: absolute;
-    top: 400px;
+	width: 100%;
+	height: 392px;
+	position: absolute;
+	top: 400px;
 }
 
 .homeWrap {
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .homeAbtWrap {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .homeAbout {
-    min-height: 335px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    outline: 1px solid rgba(0, 0, 0, 0.128);
-    border-radius: 10px;
-    margin-top: 250px;
-    padding: 30px;
+	min-height: 335px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	outline: 1px solid rgba(0, 0, 0, 0.128);
+	border-radius: 10px;
+	margin-top: 250px;
+	padding: 30px;
 }
 
 .homeAbout img {
-    height: 300px;
-    width: 100%;
-    border-radius: 10px;
+	height: 300px;
+	width: 100%;
+	border-radius: 10px;
 }
 
 .homeAbtImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    min-width: 30%;
-    margin-right: 3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	min-width: 30%;
+	margin-right: 3%;
 }
 
 .homeAbtText {
-    width: 70%;
-    line-height: 30px;
-    font-size: 12px !important; 
-    font-family: "Roboto-Serif";
+	width: 70%;
+	line-height: 30px;
+	font-size: 12px !important;
+	font-family: 'Roboto-Serif';
 }
 
 .homeAbtText a {
-    color: black;
-    font-family: "Roboto-Serif";
-    text-decoration: none;
-    outline: 2px solid #F27447;
-    display: inline-block;
-    padding: 10px 15px;
-    font-size: 16px;
+	color: black;
+	font-family: 'Roboto-Serif';
+	text-decoration: none;
+	outline: 2px solid #f27447;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 16px;
 }
 
 .homeAbtText a:hover {
-    background-color: #F27447;
-    color: white;
+	background-color: #f27447;
+	color: white;
 }
 
 .homeHeader {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-size: 50px;
-    font-family: "VT323";
+	margin-top: 100px;
+	margin-bottom: 30px;
+	font-size: 50px;
+	font-family: 'VT323';
 }
 
 .highlightSection {
-    height: 460px;
-    text-align: center;
-    display: flex;
-  }
+	height: 460px;
+	text-align: center;
+	display: flex;
+}
 
-  .buttons {
-    display: flex;
-    flex-direction: column;
-  }
+.buttons {
+	display: flex;
+	flex-direction: column;
+}
 
-  button {
-    width: 200px;
-    height: 135px;
-    font-size: 22px;
-    font-family: "Poppins";
-    border-radius: 10px;
-    color: #BDBDBD;
-    background-color: #F4F4F4;
-    cursor: pointer;
-    border-style: none;
-    margin-top: 15px;
-  }
+button {
+	width: 200px;
+	height: 135px;
+	font-size: 22px;
+	font-family: 'Poppins';
+	border-radius: 10px;
+	color: #bdbdbd;
+	background-color: #f4f4f4;
+	cursor: pointer;
+	border-style: none;
+	margin-top: 15px;
+}
 
-  button:hover {
-    color: white;
-    background-color: #377B80;
-  }
+button:hover {
+	color: white;
+	background-color: #377b80;
+}
 
-  button.selected {
-    color: white;
-    background-color: #377B80;
-  }
+button.selected {
+	color: white;
+	background-color: #377b80;
+}
 
-  .imageContainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 25px;
-    margin-right: 20px;
-  }
-  
-  /* This serves as a layer that blurs the currently selected image using the --bg-image var set in
+.imageContainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 25px;
+	margin-right: 20px;
+}
+
+/* This serves as a layer that blurs the currently selected image using the --bg-image var set in
   the home page (+page.svelte) */
-  .imageContainer::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: var(--bg-image);
-    background-size: cover;
-    background-position: center;
-    filter: blur(10px);
-    transform: scale(1.1); /* avoid blur edges showing */
-    z-index: 0;
-  }
+.imageContainer::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-image: var(--bg-image);
+	background-size: cover;
+	background-position: center;
+	filter: blur(10px);
+	transform: scale(1.1); /* avoid blur edges showing */
+	z-index: 0;
+}
 
-  .imageContainer::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: rgba(255, 255, 255, 0.107); /* white tint */
-    z-index: 0.5; /* sits between the blurred bg and the image */
-  }
-  
-  /* Foreground image */
-  .imageContainer img {
-    position: relative;
-    z-index: 1;
-    height: 100%;
-    width: auto;
-  }
+.imageContainer::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background-color: rgba(255, 255, 255, 0.107); /* white tint */
+	z-index: 0.5; /* sits between the blurred bg and the image */
+}
 
-  .loreClub {
-    height: 300px;
-    display: flex;
-    font-size: 16px;
-  }
+/* Foreground image */
+.imageContainer img {
+	position: relative;
+	z-index: 1;
+	height: 100%;
+	width: auto;
+}
 
-  .loreImg {
-    background-image: url("/LORE Club Logo.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
-    min-width: 30%;
-    margin-right: 55px;
-  }
+.loreClub {
+	height: 300px;
+	display: flex;
+	font-size: 16px;
+}
 
-  .loreText {
-    width: 70%;
-    line-height: 31px;
-    align-self: center;
-    font-family: "Roboto-Serif";
-  }
+.loreImg {
+	background-image: url('/LORE Club Logo.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-width: 30%;
+	margin-right: 55px;
+}
 
-  .loreBtns {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-  }
+.loreText {
+	width: 70%;
+	line-height: 31px;
+	align-self: center;
+	font-family: 'Roboto-Serif';
+}
 
-    .loreBtns a {
-        padding: 10px 40px;
-        border: 2px solid #F27447;
-        border-radius: 8px;
-        margin-right: 30px;
-        color: #272423;
-        text-decoration: none;
-        font-size: 16px;
+.loreBtns {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+}
+
+.loreBtns a {
+	padding: 10px 40px;
+	border: 2px solid #f27447;
+	border-radius: 8px;
+	margin-right: 30px;
+	color: #272423;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 .loreBtns a:hover {
-    background-color: #F27447;
-    color: white;
+	background-color: #f27447;
+	color: white;
 }
 
 .home .collectionsTop {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
 }
 
 .home .collectionsTop a {
-    padding: 10px 20px;
-    font-family: "Roboto-Serif";
-    background-color: #F27447;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    margin-bottom: 32px;
-    border-radius: 5px;
+	padding: 10px 20px;
+	font-family: 'Roboto-Serif';
+	background-color: #f27447;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	margin-bottom: 32px;
+	border-radius: 5px;
 }
 
 .home .collectionsTop a:hover {
-    border: 2px solid #F27447;
-    background-color: white;
-    color: #F27447;
+	border: 2px solid #f27447;
+	background-color: white;
+	color: #f27447;
 }
 
 .home .collectionsWrap {
-    display: flex;
-    justify-content: space-between;
-    height: 535px;
+	display: flex;
+	justify-content: space-between;
+	height: 535px;
 }
 
-.home .press-posts{
-  width: 75%;
-  margin-bottom: 75px;
+.home .press-posts {
+	width: 75%;
+	margin-bottom: 75px;
 }
 
 @media (max-width: 1024px) {
-  .homeWrap {
-    width: 90%;
-  }
-  .home .collectionsWrap {
-    height: 550px;
-  }
+	.homeWrap {
+		width: 90%;
+	}
+	.home .collectionsWrap {
+		height: 550px;
+	}
 }
 
 @media (max-width: 768px) {
-  .home p { font-size: 14px !important; } 
+	.home p {
+		font-size: 14px !important;
+	}
 
-  .home .hero {
-    height: 430px;
-  }
-  .home .hero .heroText {
-    margin-left: 50px;
-    width: 400px;
-  }
-  .heroText {
-    font-size: 14px;
-  }
-  .heroText img {
-    height: 50px;
-    margin-top: 25px;
-  }
-  .heroText h1 {
-    font-size: 55px;
-  }
-  .heroText a {
-    margin-top: 15px;
-  }
-  #controller {
-    top: 75px;
-    width: 350px;
-  }
-  #banner {
-    top: 300px;
-    height: 250px;
-  }
-  .homeAbout {
-    display: block;
-    width: 90%;
-    margin-top: 175px;
-  }
-  .homeAbout img {
-    height: 100%;
-  }
-  .homeAbtImg {
-    display: block;
-    width: 100%;
-    margin-right: 0;
-    height: 350px;
-    margin-bottom: 25px;
-  }
-  .homeAbtText {
-    width: 100%;
-    text-align: center;
-  }
-  .homeAbtText a {
-    text-align: center;
-    width: 80%;
-  }
-  .homeHeader {
-    margin-top: 75px;
-    font-size: 40px;
-  }
-  .loreImg {
-    margin-right: 5%;
-  }
-  .loreClub {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .loreText {
-    line-height: 25px;
-  }
-  .loreBtns {
-    flex-direction: column;
-  }
-  .loreBtns a {
-    font-size: 14px;
-    text-align: center;
-    margin-right: 0;
-    padding: 5px;
-    margin-bottom: 10px; 
-  }
-  .home .collectionsTop a {
-    font-size: 14px;
-  }
-  .home .collectionsWrap {
-    height: 450px;
-  }
-  .home .press-posts{
-    width: 100%;
-  }
+	.home .hero {
+		height: 430px;
+	}
+	.home .hero .heroText {
+		margin-left: 50px;
+		width: 400px;
+	}
+	.heroText {
+		font-size: 14px;
+	}
+	.heroText img {
+		height: 50px;
+		margin-top: 25px;
+	}
+	.heroText h1 {
+		font-size: 55px;
+	}
+	.heroText a {
+		margin-top: 15px;
+	}
+	#controller {
+		top: 75px;
+		width: 350px;
+	}
+	#banner {
+		top: 300px;
+		height: 250px;
+	}
+	.homeAbout {
+		display: block;
+		width: 90%;
+		margin-top: 175px;
+	}
+	.homeAbout img {
+		height: 100%;
+	}
+	.homeAbtImg {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+		height: 350px;
+		margin-bottom: 25px;
+	}
+	.homeAbtText {
+		width: 100%;
+		text-align: center;
+	}
+	.homeAbtText a {
+		text-align: center;
+		width: 80%;
+	}
+	.homeHeader {
+		margin-top: 75px;
+		font-size: 40px;
+	}
+	.loreImg {
+		margin-right: 5%;
+	}
+	.loreClub {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.loreText {
+		line-height: 25px;
+	}
+	.loreBtns {
+		flex-direction: column;
+	}
+	.loreBtns a {
+		font-size: 14px;
+		text-align: center;
+		margin-right: 0;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+	.home .collectionsTop a {
+		font-size: 14px;
+	}
+	.home .collectionsWrap {
+		height: 450px;
+	}
+	.home .press-posts {
+		width: 100%;
+	}
 }
 
-@media (max-width: 480px)  {
-  .home p { font-size: 11px !important; } 
+@media (max-width: 480px) {
+	.home p {
+		font-size: 11px !important;
+	}
 
-  .home .hero {
-    height: 360px;
-  }
-  .home .hero .heroText {
-    margin-left: 20px;
-    width: 400px;
-  }
-  .heroText {
-    font-size: 12px;
-  }
-  .heroText img {
-    height: 40px;
-    margin-top: 55px;
-  }
-  .heroText h1 {
-    font-size: 45px;
-  }
-  .heroText a {
-    padding: 10px 10px;
-    margin-top: 10px;
-  }
-  #controller {
-    top: 140px;
-    width: 225px;
-  }
-  #banner {
-    top: 260px;
-    height: 175px;
-  }
-  .homeAbout {
-    display: block;
-    width: 100%;
-    margin-top: 125px;
-  }
-  .homeAbout img {
-    height: 100%;
-  }
-  .homeAbtImg {
-    display: block;
-    width: 100%;
-    margin-right: 0;
-    height: 250px;
-    margin-bottom: 25px;
-  }
-  .homeAbtText {
-    width: 100%;
-    text-align: center;
-  }
-  .homeAbtText a {
-    text-align: center;
-    width: 80%;
-    font-size: 14px;
-    padding: 4px 20px;
-  }
-  .homeHeader {
-    margin-top: 75px;
-    font-size: 40px;
-  }
-  .highlightSection {
-    height: 250px;
-    display: block;
-  }
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  button {
-    height: 100px;
-    width: 30%;
-    padding: 5px;
-    font-size: 16px;
-  }
-  #loreHead {
-    margin-top: 180px;
-  }
-  .loreImg {
-    height: 70%;
-  }
-  .loreClub {
-    display: block;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .loreText {
-    line-height: 25px;
-    width: 100%;
-    margin-top: 15px;
-  }
-  .loreBtns {
-    flex-direction: column;
-  }
-  .loreBtns a {
-    font-size: 14px;
-    text-align: center;
-    margin-right: 0;
-    padding: 5px;
-    margin-bottom: 10px; 
-  }
-  .home .collectionsTop .homeHeader {
-    margin-top: 300px;
-  }
-  .home .collectionsTop a {
-    font-size: 12px;
-  }
-  .home .collectionsWrap {
-    width: 100%;
-    height: 1300px;
-    flex-direction: column;
-  }
-  .home .press-posts{
-    width: 100%;
-    margin-bottom: 50px;
-  }
+	.home .hero {
+		height: 360px;
+	}
+	.home .hero .heroText {
+		margin-left: 20px;
+		width: 400px;
+	}
+	.heroText {
+		font-size: 12px;
+	}
+	.heroText img {
+		height: 40px;
+		margin-top: 55px;
+	}
+	.heroText h1 {
+		font-size: 45px;
+	}
+	.heroText a {
+		padding: 10px 10px;
+		margin-top: 10px;
+	}
+	#controller {
+		top: 140px;
+		width: 225px;
+	}
+	#banner {
+		top: 260px;
+		height: 175px;
+	}
+	.homeAbout {
+		display: block;
+		width: 100%;
+		margin-top: 125px;
+	}
+	.homeAbout img {
+		height: 100%;
+	}
+	.homeAbtImg {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+		height: 250px;
+		margin-bottom: 25px;
+	}
+	.homeAbtText {
+		width: 100%;
+		text-align: center;
+	}
+	.homeAbtText a {
+		text-align: center;
+		width: 80%;
+		font-size: 14px;
+		padding: 4px 20px;
+	}
+	.homeHeader {
+		margin-top: 75px;
+		font-size: 40px;
+	}
+	.highlightSection {
+		height: 250px;
+		display: block;
+	}
+	.buttons {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	button {
+		height: 100px;
+		width: 30%;
+		/* padding: 5px; */
+		font-size: 16px;
+	}
+	#loreHead {
+		margin-top: 180px;
+	}
+	.loreImg {
+		height: 70%;
+	}
+	.loreClub {
+		display: block;
+		font-size: 12px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.loreText {
+		line-height: 25px;
+		width: 100%;
+		margin-top: 15px;
+	}
+	.loreBtns {
+		flex-direction: column;
+	}
+	.loreBtns a {
+		font-size: 14px;
+		text-align: center;
+		margin-right: 0;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+	.home .collectionsTop .homeHeader {
+		margin-top: 300px;
+	}
+	.home .collectionsTop a {
+		font-size: 12px;
+	}
+	.home .collectionsWrap {
+		width: 100%;
+		height: 1300px;
+		flex-direction: column;
+	}
+	.home .press-posts {
+		width: 100%;
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 380px) {
-  .home .hero .heroText {
-    margin-left: 20px;
-    width: 350px;
-    font-size: 11px;
-  }
-  #controller {
-    top: 150px;
-    width: 200px;
-  }
-  .homeHeader {
-    margin-top: 75px;
-    font-size: 35px;
-  }
-  .home .collectionsTop .homeHeader {
-    margin-top: 300px;
-  }
-  button {
-    font-size: 14px;
-  }
+	.home .hero .heroText {
+		margin-left: 20px;
+		width: 350px;
+		font-size: 11px;
+	}
+	#controller {
+		top: 150px;
+		width: 200px;
+	}
+	.homeHeader {
+		margin-top: 75px;
+		font-size: 35px;
+	}
+	.home .collectionsTop .homeHeader {
+		margin-top: 300px;
+	}
+	button {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 320px) {
-  .home p { font-size: 10px !important; }
+	.home p {
+		font-size: 10px !important;
+	}
 
-  .home .hero {
-    height: 280px;
-  }
-  .home .hero .heroText {
-    margin-left: 20px;
-    width: 80%;
-  }
-  .heroText {
-    font-size: 12px;
-  }
-  .heroText img {
-    height: 30px;
-    margin-top: 80px;
-  }
-  .heroText h1 {
-    font-size: 35px;
-  }
-  .heroText a {
-    padding: 10px 10px;
-    margin-top: 10px;
-  }
-  #controller {
-    top: 110px;
-    right: -15px;
-    width: 180px;
-  }
-  #banner {
-    top: 200px;
-    height: 150px;
-  }
-  .homeAbout {
-    display: block;
-    width: 100%;
-    margin-top: 125px;
-  }
-  .homeAbtText {
-    line-height: 23px;
-  }
-  .homeAbout img {
-    height: 100%;
-  }
-  .homeAbtImg {
-    height: 150px;
-    
-  }
-  .homeAbtText a {
-    font-size: 12px;
-  }
-  .home .collectionsTop .homeHeader {
-    margin-top: 350px;
-  }
-  .home .collectionsWrap {
-    height: 1350px;
-  }
+	.home .hero {
+		height: 280px;
+	}
+	.home .hero .heroText {
+		margin-left: 20px;
+		width: 80%;
+	}
+	.heroText {
+		font-size: 12px;
+	}
+	.heroText img {
+		height: 30px;
+		margin-top: 80px;
+	}
+	.heroText h1 {
+		font-size: 35px;
+	}
+	.heroText a {
+		padding: 10px 10px;
+		margin-top: 10px;
+	}
+	#controller {
+		top: 110px;
+		right: -15px;
+		width: 180px;
+	}
+	#banner {
+		top: 200px;
+		height: 150px;
+	}
+	.homeAbout {
+		display: block;
+		width: 100%;
+		margin-top: 125px;
+	}
+	.homeAbtText {
+		line-height: 23px;
+	}
+	.homeAbout img {
+		height: 100%;
+	}
+	.homeAbtImg {
+		height: 150px;
+	}
+	.homeAbtText a {
+		font-size: 12px;
+	}
+	.home .collectionsTop .homeHeader {
+		margin-top: 350px;
+	}
+	.home .collectionsWrap {
+		height: 1350px;
+	}
 }
