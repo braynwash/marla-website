@@ -18,6 +18,7 @@
 }
 
 .home .hero .heroText {
+	/* position: relative; */
 	color: white;
 	height: 350px;
 	width: 610px;
