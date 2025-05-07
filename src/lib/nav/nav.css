@@ -5,52 +5,119 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding: 0 2rem;
+	position: relative;
+	z-index: 10;
 }
 
 .iu-logo img {
-	width: 20em;
+	width: 300px;
 	height: auto;
 }
 
-.mainNav ul {
-	height: 100%;
-	list-style: none;
-
+.nav-links {
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
 }
 
-.mainNav ul li a {
+.nav-links ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+.nav-links ul li a {
 	text-decoration: none;
 	color: black;
 	font-size: 25px;
-	font-family: "VT323";
+	font-family: 'VT323', monospace;
 	font-weight: 400;
 }
 
-.mainNav ul li a:hover {
-	color: #F27447;
+.nav-links ul li a:hover {
+	color: #f27447;
 }
 
-.mainNav .links {
-	width: 50%;
+.nav-links ul li.contact a {
+	background-color: #f16634;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: white;
 }
 
-.mainNav .links .contact a {
-    background-color: #F16634;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-}
-
-.mainNav .links .contact a:hover {
-	color: #F16634;
+.nav-links ul li.contact a:hover {
+	color: #f16634;
 	background-color: #fff;
-	outline: 2px solid #F16634;
+	outline: 2px solid #f16634;
+}
+
+.hamburger {
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 32px;
+	height: 24px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.bar {
+	width: 100%;
+	height: 3px;
+	background-color: var(--primary-color);
+	border-radius: 5px;
+	transition:
+		transform 0.3s ease,
+		opacity 0.3s ease;
+}
+
+.hamburger[aria-expanded='true'] .bar:nth-child(1) {
+	transform: rotate(45deg) translateY(12px);
+}
+
+.hamburger[aria-expanded='true'] .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger[aria-expanded='true'] .bar:nth-child(3) {
+	transform: rotate(-45deg) translateY(-17px);
+}
+
+@media (max-width: 1000px) {
+	.hamburger {
+		display: flex;
+	}
+
+	.nav-links {
+		display: none;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem 0;
+		z-index: 999;
+	}
+
+	.nav-links.open {
+		display: flex;
+	}
+
+	.nav-links ul {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.iu-logo img {
+		width: 200px;
+		height: auto;
+	}
 }
