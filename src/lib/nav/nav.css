@@ -87,7 +87,7 @@
 	transform: rotate(-45deg) translateY(-17px);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 960px) {
 	.hamburger {
 		display: flex;
 	}
