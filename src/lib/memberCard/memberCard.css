@@ -57,5 +57,55 @@ p {
 @media (max-width: 900px) {
 	.member {
 		max-width: 400px;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.memberInfo {
+		text-align: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	.memberWrap {
+		padding: 10px;
+	}
+
+	.member {
+		max-width: 350px;
+	}
+
+	.memberInfo h4,
+	p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	.memberInfo {
+		padding: 10px;
+	}
+
+	.memberInfo h4,
+	p {
+		font-size: 10px;
+	}
+
+	.memberWrap {
+		padding: 10px;
+		max-width: 290px;
+	}
+
+	.member {
+		max-width: 290px;
+	}
+
+	.img {
+		margin-right: 10px;
+		min-width: 150px;
 	}
 }
